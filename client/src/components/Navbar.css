@@ -1,0 +1,11 @@
+.nav {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+
+
+nav > svg {
+
+}
