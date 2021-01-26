@@ -1,0 +1,25 @@
+.Body__ {
+  background-color: #e7816b;
+}
+
+.Body__Header {
+  padding-top: 4em;
+  margin-top: 1.5em;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.Body__Paragraph {
+  margin-top: 2.5em;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+
+.Body__Button {
+  margin-top: 1.8em;
+  text-align: center;
+  width: 22%;
+  padding: 1em;
+  margin-left: 40%;
+}

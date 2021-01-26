@@ -1,11 +1,15 @@
 .nav {
     display: flex;
-    margin-top: 30px;
-    margin-left: 20px;
+    margin-top: 3em;
+    margin-left: 1.8em;
+
 }
 
 
+.Hamburger{
+    margin-left: 11em;
+}
 
-nav > svg {
-
+.Logo {
+    width: 50%;
 }
