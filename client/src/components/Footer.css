@@ -1,0 +1,16 @@
+.Footer {
+    text-align: center;
+    background-color: #1D1C1E;
+}
+
+.Footer__Begin {
+    margin-top: 1em;
+}
+
+.Footer__Links {
+    margin-bottom: 1em;
+}
+
+.Footer__Middle__Para {
+    margin-bottom: 2em;
+}

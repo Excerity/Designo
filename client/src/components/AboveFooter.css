@@ -1,0 +1,18 @@
+.AboveFooter {  
+    background-color: #e7816b;
+}
+
+.AboveFooter__Header {
+  text-align: center;
+  font-size: 2em;
+  color: #FFFFFF}
+
+.AboveFooter__Paragraph {
+    text-align: center;
+    color: #FFFFFF
+}
+
+.AboveFooter__Button {
+    margin-left: 40%;
+    margin-top: 1.8em;
+}
