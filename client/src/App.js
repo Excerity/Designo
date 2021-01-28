@@ -1,15 +1,26 @@
 import './index.css';
-import Navbar from './components/Mobile_Home/Navbar'
-import Body from './components/Mobile_Home/Body';
-import MidPage from './components/Mobile_Home/MidPage';
-import AboveFooter from './components/Mobile_Home/AboveFooter';
-import Footer from './components/Mobile_Home/Footer';
+import Navbar from './components/MobileHomePage/Navbar'
+import Body from './components/MobileHomePage/Body';
+import MidPage from './components/MobileHomePage/MidPage';
+import AboveFooter from './components/MobileHomePage/AboveFooter';
+import Footer from './components/MobileHomePage/Footer';
+import {BrowserRouter as Router, Link, Route, Switch} from 'react-router-dom'
+import MobileHomePage from './Pages/MobileHomePage';
+import MobileWebDesign from './Pages/MobileWebDesign';
 
 
 function App() {
-  return (
+  return (    
+    <Router>
     <div className="App">
-      <Navbar />
+      <Switch>
+      <Route  path='/WebDesign' component={MobileWebDesign}/>
+      <Route  path='/' component={MobileHomePage}/>
+   
+    </Switch>
+
+    
+      {/* <Navbar />
       <Body />
       <MidPage 
   Passionate='./images/illustration-passionate.svg'
@@ -18,8 +29,9 @@ function App() {
      Circle='/images/bg-pattern-small-circle.svg'
      />
       <AboveFooter />
-      <Footer />
+      <Footer /> */}
     </div>
+     </Router>
   );
 }
 

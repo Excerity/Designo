@@ -8,7 +8,6 @@ import '../Navbar.css'
 
 function Navbar() {
 
-
     return (
         <div className='nav'>
              <img className='Logo' src="/images/darkLogo.png" alt=""/>
