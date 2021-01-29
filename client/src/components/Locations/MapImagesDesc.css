@@ -1,0 +1,21 @@
+.Desc {
+    background-color: #FDF3F0;
+}
+
+.Desc__Container {
+    text-align: center;
+    margin-top: 7em;
+}
+
+.Country {
+    margin-bottom: .8em;
+}
+
+p {
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+.Contact {
+    margin-top: 1.3em;
+}
+
