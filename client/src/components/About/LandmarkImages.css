@@ -1,0 +1,39 @@
+.MidPage__Picture {
+  /* display: absolute; */
+  margin-top: -20em;
+  margin-left: 9.5em;
+}
+
+.Circle {
+  margin-left: 30%;
+  margin-bottom: -1em;
+}
+
+.MidPage {
+  margin-top: 5em;
+  margin-bottom: 10em;
+}
+
+.Canada__Image {
+  padding-bottom: 2em;
+}
+
+.UK__Image {
+  padding-bottom: 2em;
+}
+
+.Australia__Image {
+  padding-bottom: 1em;
+}
+
+.Canada__Container {
+  margin-bottom: 3em;
+}
+
+.Australia__Container {
+  margin-bottom: 3em;
+}
+
+.UK__Container {
+  margin-bottom: 3em;
+}

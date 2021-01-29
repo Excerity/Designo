@@ -9,12 +9,16 @@ import MobileHomePage from './Pages/MobileHomePage';
 import MobileWebDesign from './Pages/MobileWebDesign';
 import MobileAppDesign from './Pages/MobileAppDesign';
 import GraphicDesign from './Pages/GraphicDesign';
+import About from './Pages/About';
+import Locations from './Pages/Locations';
 
 function App() {
   return (    
     <Router>
     <div className="App">
       <Switch>
+      <Route path='/Locations' component={Locations}/>
+      <Route path='/About' component={About} />
       <Route path='/GraphicDesign' component={GraphicDesign} />
       <Route  path='/WebDesign' component={MobileWebDesign}/>
       <Route path='/AppDesign' component={MobileAppDesign} />

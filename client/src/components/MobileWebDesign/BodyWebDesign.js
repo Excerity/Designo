@@ -11,8 +11,7 @@ function BodyWebDesign() {
 
         <div className='Body__Paragraph'>
         <p>We build websites that serve as powerful marketing</p>
-        <p>tools and bring memorable brand experiences.</p>
-   
+        <p>tools and bring memorable brand experiences.</p> 
       
         </div>
 
