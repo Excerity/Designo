@@ -1,0 +1,22 @@
+.Body {
+  background-color: #e7816b;
+  text-align: center;
+}
+
+.Form__Container {
+  display: block;
+  text-align: center;
+}
+
+.Form {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+Button {
+  top: 50%;
+  left: 25%;
+  width: 60%;
+}

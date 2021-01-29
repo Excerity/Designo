@@ -5,6 +5,7 @@
 
 .Footer__Begin {
     margin-top: 1em;
+    color: #FFFFFF;
 }
 
 .Footer__Links {
@@ -13,4 +14,6 @@
 
 .Footer__Middle__Para {
     margin-bottom: 2em;
+    color: #979797;
 }
+
