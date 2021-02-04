@@ -1,19 +1,54 @@
-.Footer {
+@media (min-width: 320px) {
+  /* smartphones, iPhone, portrait 480x320 phones */
+
+  .Footer {
     text-align: center;
-    background-color: #1D1C1E;
-}
+    background-color: #1d1c1e;
+  }
 
-.Footer__Begin {
+  .Footer__Begin {
     margin-top: 1em;
-    color: #FFFFFF;
-}
+    color: #ffffff;
+  }
 
-.Footer__Links {
+  .Footer__Links {
     margin-bottom: 1em;
-}
+  }
 
-.Footer__Middle__Para {
+  .Footer__Middle__Para {
     margin-bottom: 2em;
     color: #979797;
+  }
 }
 
+@media (min-width: 600px) {
+  .Logo {
+    width: 40%;
+  }
+
+  .TabletFooterStart {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2em;
+  }
+
+  .Footer__Begin {
+    text-decoration: none;
+    padding-left: 1em;
+    color: #979797;
+  }
+
+  .Footer__Bottom__Container {
+    display: flex;
+    padding-top: 3em;
+  }
+
+  .Icons {
+    padding-left: 4em;
+    padding-top: 3.8em;
+  }
+
+  .Icons > img {
+    padding-left: 0.5em;
+  }
+}

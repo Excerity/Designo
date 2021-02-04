@@ -1,15 +1,41 @@
-.nav {
+@media (min-width: 320px) {
+  .nav {
     display: flex;
     margin-top: 3em;
     margin-left: 1.8em;
+  }
 
-}
-
-
-.Hamburger{
+  .Nav__Links {
+    display: none;
+  }
+      
+  .Hamburger {
     margin-left: 11em;
+  }
+
+  .Logo {
+    width: 50%;
+  }
 }
 
-.Logo {
-    width: 50%;
+@media (min-width: 600px) {
+  .Hamburger {
+    display: none !important;
+  }
+
+  .nav {
+    display: flex;
+    margin-top: 3em;
+    margin-left: 1.8em;
+  }
+
+  .Nav__Links {
+    display: block;
+    margin-left: 5em;
+  }
+
+  .link {
+    padding-left: 2em;
+    text-decoration: none;
+  }
 }

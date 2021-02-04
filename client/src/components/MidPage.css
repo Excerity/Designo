@@ -1,18 +1,49 @@
-.MidPage {
-  margin-top: 5em;
-  margin-bottom: 10em;
+@media (min-width: 320px) {
+  .MidPage {
+    margin-top: 5em;
+    margin-bottom: 10em;
+  }
+
+  .MidPage__Picture {
+    /* display: absolute; */
+    margin-top: -15em;
+    margin-left: 8em;
+  }
+
+  .circle {
+    margin-left: 30%;
+  }
+
+  .MidPage__Paragraph {
+    text-align: center;
+  }
+
+  .MidPage__Paragraph22 {
+    display: none;
+  }
 }
 
-.MidPage__Picture {
-  /* display: absolute; */
-  margin-top: -15em;
-  margin-left: 8em;
-}
+@media (min-width: 600px) {
+  .MidPage__Container {
+    margin-bottom: 5em;
+  }
 
-.circle {
-  margin-left: 30%;
-}
+  .circle {
+    margin-left: 3em;
+  }
 
-.MidPage__Paragraph {
-  text-align: center;
+  .MidPage__Picture {
+    margin-top: -15em;
+    margin-left: -8em;
+  }
+
+  .MidPage__Paragraph {
+    display: none;
+  }
+
+  .MidPage__Paragraph22 {
+    display: block;
+    margin-left: 40%;
+    margin-top: -9em;
+  }
 }

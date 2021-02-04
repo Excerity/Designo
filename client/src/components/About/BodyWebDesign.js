@@ -3,11 +3,10 @@ import '../Body.css'
 
 function BodyWebDesign() {
     return (
-        <div className='Body__'>
+        <div className='Body'>
             <h2 className='Body__Header'>
               <div>About us</div> 
            
-            
             </h2>
 
         <div className='Body__Paragraph'>

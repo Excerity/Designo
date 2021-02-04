@@ -1,6 +1,19 @@
-.MidPage__Image {
+@media (min-width: 320px) {
+  .MidPage__Image {
     width: 90%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+@media (min-width: 600px) {
+  .MidPage > img {
+    width: 50%;
+    margin-left: 3%;
+
+}
+
+  .MidPage__Image {
+  }
 }

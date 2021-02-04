@@ -5,9 +5,9 @@ import MidPage from './components/MobileHomePage/MidPage';
 import AboveFooter from './components/MobileHomePage/AboveFooter';
 import Footer from './components/MobileHomePage/Footer';
 import {BrowserRouter as Router, Link, Route, Switch} from 'react-router-dom'
-import MobileHomePage from './Pages/MobileHomePage';
-import MobileWebDesign from './Pages/MobileWebDesign';
-import MobileAppDesign from './Pages/MobileAppDesign';
+import HomePage from './Pages/HomePage';
+import WebDesign from './Pages/WebDesign';
+import AppDesign from './Pages/AppDesign';
 import GraphicDesign from './Pages/GraphicDesign';
 import About from './Pages/About';
 import Locations from './Pages/Locations';
@@ -18,13 +18,13 @@ function App() {
     <Router>
     <div className="App">
       <Switch>
-        <Route path='/Contact' component={Contact} />
+      <Route path='/Contact' component={Contact} />
       <Route path='/Locations' component={Locations}/>
       <Route path='/About' component={About} />
       <Route path='/GraphicDesign' component={GraphicDesign} />
-      <Route  path='/WebDesign' component={MobileWebDesign}/>
-      <Route path='/AppDesign' component={MobileAppDesign} />
-      <Route  path='/' component={MobileHomePage}/>
+      <Route  path='/WebDesign' component={WebDesign}/>
+      <Route path='/AppDesign' component={AppDesign} />
+      <Route  path='/' component={HomePage}/>
     </Switch>
 
     </div>

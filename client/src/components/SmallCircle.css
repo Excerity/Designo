@@ -1,5 +1,9 @@
-.Circle {
+@media (min-width: 320px) {
+  .Circle {
     margin-left: 30%;
     margin-bottom: -1em;
   }
-  
+}
+
+@media (min-width: 600px) {
+}

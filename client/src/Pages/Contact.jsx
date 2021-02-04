@@ -6,7 +6,6 @@ import Body from '../components/Contact/Body'
 
 function Contact() {
 
-
     return (
         <div>
         <Navbar />

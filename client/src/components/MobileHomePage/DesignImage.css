@@ -1,0 +1,43 @@
+/* phones */
+
+@media (min-width: 320px) {
+  .MobileImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .Tablet {
+    display: none;
+  }
+}
+
+/* tablets */
+@media (min-width: 600px) {
+  .TabletImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .MobileImg {
+    display: none;
+  }
+
+  .Tablet {
+    display: inline;
+    margin-bottom: -15em;
+  }
+}
+
+@media (min-width: 801px) {
+  /* .TabletImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .MobileImg {
+    display: none;
+  } */
+}

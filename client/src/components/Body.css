@@ -1,25 +1,49 @@
-.Body__ {
-  background-color: #e7816b;
+@media (min-width: 320px) {
+  .Body {
+    background-color: #e7816b;
+    height: 28em;
+  }
+
+  .Body__Header {
+    padding-top: 4em;
+    margin-top: 1.5em;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .Body__Paragraph {
+    margin-top: 2.5em;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .Body__Button {
+    margin-top: 1.8em;
+    text-align: center;
+    width: 22%;
+    padding: 1em;
+    margin-left: 40%;
+  }
+
+  .Desktop {
+    display: none;
+  }
+
+  .Tablet {
+    display: none;
+  }
 }
 
-.Body__Header {
-  padding-top: 4em;
-  margin-top: 1.5em;
-  text-align: center;
-  color: #FFFFFF;
-}
+@media (min-width: 600px) {
+  .Body {
+    width: 40em;
+  }
 
-.Body__Paragraph {
-  margin-top: 2.5em;
-  text-align: center;
-  color: #FFFFFF;
-}
+  .Mobile {
+    display: none;
+  }
 
-
-.Body__Button {
-  margin-top: 1.8em;
-  text-align: center;
-  width: 22%;
-  padding: 1em;
-  margin-left: 40%;
+  .Tablet {
+    display: block;
+  }
 }

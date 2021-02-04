@@ -8,6 +8,8 @@ import MidPageDescWebDesign from '../components/About/MidPageDescWebDesign';
 import AboutUsImage from '../components/About/AboutUsImage';
 import LandmarkImages from '../components/About/LandmarkImages';
 import SmallCircle from '../components/SmallCircle';
+import WorldClassImg from '../components/About/WorldClassImg';
+import RealDeal from '../components/About/RealDeal';
 
 function About() {
     return (
@@ -15,12 +17,11 @@ function About() {
       <Navbar />
       <AboutUsImage />
       <BodyWebDesign />
-      <MidPageWebDesign image='/images/image-world-class-talent.jpg' />
+     <WorldClassImg />
       <MidPageDescWebDesign Title='World-class talent'/>
    <LandmarkImages  Circle='/images/bg-pattern-small-circle.svg'/>
-      <MidPageWebDesign image='/images/image-real-deal.jpg' />
+      <RealDeal />
       <MidPageDescWebDesign Title='The real deal'/>
-    
       <AboveFooter />
       <Footer /> 
         </div>

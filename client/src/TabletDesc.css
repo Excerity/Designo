@@ -1,0 +1,14 @@
+
+@media (min-width: 320px) {
+    .Tablet {
+        display: none;
+    }
+}
+
+@media (min-width: 600px) {
+
+        .Tablet {
+            display: flex;
+            flex-direction: row;
+        }
+}

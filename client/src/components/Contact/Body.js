@@ -6,7 +6,6 @@ import './Body.css'
 
 function Body() {
 
-
     return (
         <div className='Body'>
             <h1>Contact Us</h1>

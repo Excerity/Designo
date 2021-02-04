@@ -1,0 +1,28 @@
+@media (min-width: 320px) {
+  .Desktop {
+    display: none;
+  }
+
+  .Tablet {
+    display: none;
+  }
+
+  .Mobile {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2em;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media (min-width: 600px) {
+  .Mobile {
+    display: none;
+  }
+
+  .Tablet {
+    display: block;
+  }
+}

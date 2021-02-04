@@ -3,7 +3,8 @@ import '../Body.css'
 
 function BodyWebDesign() {
     return (
-        <div className='Body__'>
+        <div className='Body'>
+          
             <h2 className='Body__Header'>
               <div>Web Design</div> 
            

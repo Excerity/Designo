@@ -1,18 +1,22 @@
-.AboveFooter {  
-    background-color: #e7816b;
+@media (min-width: 320px) {
+
+.AboveFooter {
+  background-color: #e7816b;
 }
 
 .AboveFooter__Header {
   text-align: center;
   font-size: 2em;
-  color: #FFFFFF}
+  color: #ffffff;
+}
 
 .AboveFooter__Paragraph {
-    text-align: center;
-    color: #FFFFFF
+  text-align: center;
+  color: #ffffff;
 }
 
 .AboveFooter__Button {
-    margin-left: 40%;
-    margin-top: 1.8em;
+  margin-left: 40%;
+  margin-top: 1.8em;
+}
 }

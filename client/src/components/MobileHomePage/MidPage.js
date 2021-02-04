@@ -4,8 +4,10 @@ import '../MidPage.css'
 function MidPage({ Passionate, Friendly, Resourceful, Circle }) {
     return (
         <div className='MidPage'>
-     
-<div className="circle">
+
+            <div className='MidPage__Container'>
+
+            <div className="circle">
     <img src={Circle} alt=""/>
 
 </div>
@@ -18,10 +20,19 @@ function MidPage({ Passionate, Friendly, Resourceful, Circle }) {
          <p> serve a purpose. We merge art, design, and</p>
         <p>technology into exciting new solutions.</p>
         </div>
+        <div className='MidPage__Paragraph22'>
+        <h2>Passionate</h2>
+        <p>Each project starts with an in-depth brand research to ensure we</p>
+        <p> only create products that serve a purpose. We merge art,</p>
+        <p>design, and technology into exciting new solutions.</p>
+        </div>
+            </div>
      
+        
 
 
-<div className="circle">
+        <div className='MidPage__Container'>
+        <div className="circle">
     <img src={Circle}alt=""/>
 
 </div>
@@ -36,10 +47,22 @@ function MidPage({ Passionate, Friendly, Resourceful, Circle }) {
               <p>superior results that fulfill our clients’ needs.</p>
             </div>
 
-                <div className="circle">
-    <img src={Circle} alt=""/>
+            <div className='MidPage__Paragraph22'>
+            <h2>Resourceful</h2>
+              <p>Everything that we do has a strategic purpose. We use an agile</p>
+              <p> approach in all of our projects and value customer collaboration.</p>
+              <p>and value customer collaboration superior results that fulfill our clients’ needs.</p>
+            </div>
 
-</div>
+        </div>
+
+
+
+<div className='MidPage__Container'>
+    
+<div className="circle">
+    <img src={Circle} alt=""/>
+    </div>
 
 <img className='MidPage__Picture' src={Friendly} alt=""/>
 
@@ -50,10 +73,19 @@ function MidPage({ Passionate, Friendly, Resourceful, Circle }) {
                 <p>on our customers, and we strive to give them</p>
                 <p>the best experience a company can provide.</p>
             </div>
-           
+
+            <div className='MidPage__Paragraph22'>
+            <h2>Friendly</h2>
+                <p>We are a group of enthusiastic folks who know how how to put</p>
+                <p> people first. Our success depends on our customers, and we</p>
+                <p>strive to give them the best experience a company can provide.</p>
+            </div>
 
 
         </div>
+
+</div>
+
 
     )
 }
