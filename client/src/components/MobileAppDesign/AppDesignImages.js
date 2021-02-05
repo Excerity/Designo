@@ -1,9 +1,10 @@
 import React from 'react'
+// import '../MidPageWebDesign.css'
 
 function AppDesignImages({ image }) {
     return (
-        <div>
-            <img src={image} alt=""/>
+        <div className='MidPage'>
+            <img className='MidPage__Image' src={image} alt=""/>
         </div>
     )
 }

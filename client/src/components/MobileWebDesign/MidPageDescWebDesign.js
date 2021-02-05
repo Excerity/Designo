@@ -1,6 +1,6 @@
 import React from 'react'
 import './MidPageDescWebDesign.css'
-import './MidPageWebDesign.css'
+// import './MidPageWebDesign.css'
 
 
 function MidPageDescWebDesign({ FirstH3, SecondH3, Title }) {

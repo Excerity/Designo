@@ -3,8 +3,7 @@ import BodyWebDesign from '../components/About/BodyWebDesign';
 import AboveFooter from '../components/MobileHomePage/AboveFooter';
 import Footer from '../components/MobileHomePage/Footer';
 import Navbar from '../components/MobileHomePage/Navbar';
-import MidPageWebDesign from '../components/GraphicDesign/MidPageWebDesign';
-import MidPageDescWebDesign from '../components/About/MidPageDescWebDesign';
+import MidPageDescAboutDesign from '../components/About/MidPageDescAboutDesign';
 import AboutUsImage from '../components/About/AboutUsImage';
 import LandmarkImages from '../components/About/LandmarkImages';
 import SmallCircle from '../components/SmallCircle';
@@ -18,10 +17,10 @@ function About() {
       <AboutUsImage />
       <BodyWebDesign />
      <WorldClassImg />
-      <MidPageDescWebDesign Title='World-class talent'/>
+      <MidPageDescAboutDesign Title='World-class talent'/>
    <LandmarkImages  Circle='/images/bg-pattern-small-circle.svg'/>
       <RealDeal />
-      <MidPageDescWebDesign Title='The real deal'/>
+      <MidPageDescAboutDesign Title='The real deal'/>
       <AboveFooter />
       <Footer /> 
         </div>
