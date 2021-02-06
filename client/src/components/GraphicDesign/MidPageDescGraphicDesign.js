@@ -1,7 +1,7 @@
 import React from 'react'
-import './MidPageDescWebDesign.css'
+import './MidPageDesGraphicDesign.css'
 
-function MidPageDescWebDesign({ FirstH3, SecondH3, Title}) {
+function MidPageDescGraphicDesign({ FirstH3, SecondH3, Title}) {
     return (
         <div className='Desc'>
             <div className='Desc__Text'>
@@ -18,4 +18,4 @@ function MidPageDescWebDesign({ FirstH3, SecondH3, Title}) {
     )
 }
 
-export default MidPageDescWebDesign
+export default MidPageDescGraphicDesign

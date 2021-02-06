@@ -12,12 +12,11 @@ function MobileWebDesign() {
         <div>
          <Navbar />
       <BodyWebDesign />
+=      <MidPageDesign image='/images/image-express.jpg' />
+
+    <MidPageDescWebDesign  FirstH3='A multi-carrier shipping website for' SecondH3='ecommerce businesses' Title='Express'/>    
+
       <div className='Tablet'>
-      <MidPageDesign image='/images/image-express.jpg' />
-      <MidPageDescWebDesign  FirstH3='A multi-carrier shipping website for' SecondH3='ecommerce businesses' Title='Express'/>
-      </div>
-      
-     <div className='Tablet'>
      
              <MidPageDesign image='/images/image-transfer.jpg' />
        <MidPageDescWebDesign FirstH3='Site for low-cost money transfers and ' SecondH3='sending money within seconds' Title='Transfer'/>
@@ -43,7 +42,7 @@ function MobileWebDesign() {
      </div>
      
       <AboveFooter />
-      <Footer /> 
+      <Footer />  
         </div>
     )
 }
