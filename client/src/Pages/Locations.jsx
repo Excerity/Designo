@@ -1,6 +1,5 @@
 import React from 'react'
 import AboutUsImage from '../components/About/AboutUsImage'
-import BodyWebDesign from '../components/About/BodyWebDesign'
 import LandmarkImages from '../components/About/LandmarkImages'
 import AboveFooter from '../components/MobileHomePage/AboveFooter'
 import Footer from '../components/MobileHomePage/Footer'
@@ -39,7 +38,6 @@ function Locations() {
          Address2='Rhyd-y-fro SA8 9GA' 
          Phone= 'P : 078 3115 1400'
           Mail='M : contact@designo.uk' />
-         <LandmarkImages  Circle='/images/bg-pattern-small-circle.svg'/>
          <AboveFooter />
       <Footer /> 
         </div>

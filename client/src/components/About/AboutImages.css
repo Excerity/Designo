@@ -1,13 +1,13 @@
 @media (min-width: 320px) {
-  .Desktop {
+  .About_Desktop {
     display: none;
   }
 
-  .Tablet {
+  .About_Tablet {
     display: none;
   }
 
-  .Mobile {
+  .About_Mobile {
     display: block;
     margin-right: auto;
     margin-left: auto;
@@ -18,11 +18,13 @@
 }
 
 @media (min-width: 600px) {
-  .Mobile {
+  .About_Mobile {
     display: none;
   }
 
-  .Tablet {
+  .About_Tablet {
     display: block;
+    margin-right: auto;
+    margin-left: auto;
   }
 }

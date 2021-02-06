@@ -1,9 +1,9 @@
 import React from 'react'
-import '../Body.css'
+import './BodyAbout.css'
 
-function BodyWebDesign() {
+function BodyAbout() {
     return (
-        <div className='Body'>
+        <div className='Body__About'>
             <h2 className='Body__Header'>
               <div>About us</div> 
            
@@ -24,7 +24,7 @@ function BodyWebDesign() {
     )
 }
 
-export default BodyWebDesign
+export default BodyAbout
 
 
  

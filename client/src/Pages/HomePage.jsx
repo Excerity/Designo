@@ -1,5 +1,5 @@
 import React from 'react'
-import Body from '../components/MobileHomePage/Body';
+import HomeBody from '../components/MobileHomePage/HomeBody';
 import MidPage from '../components/MobileHomePage/MidPage';
 import AboveFooter from '../components/MobileHomePage/AboveFooter';
 import Footer from '../components/MobileHomePage/Footer';
@@ -11,8 +11,8 @@ function MobileHomePage() {
     return (
         <div>
          <Navbar />
-      <Body />
-      <DesignImage MobileType='web' TabletType='web'/>
+      <HomeBody />
+         <DesignImage MobileType='web' TabletType='web'/>
          <DesignImageDesc  title='Web Design'/>
          <DesignImage MobileType='app' TabletType='app' />
          <DesignImageDesc  title='App'/>

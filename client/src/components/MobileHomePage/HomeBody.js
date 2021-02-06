@@ -1,9 +1,9 @@
 import React from 'react'
 import '../Body.css'
 
-function Body() {
+function HomeBody() {
     return (
-        <div className='Body__'>
+        <div className='Body'>
             <h2 className='Body__Header'>
            <div>Award-winning custom </div> 
             <div>designs and digital </div> 
@@ -20,13 +20,14 @@ function Body() {
         </p>
 
         <button className='Body__Button'>Learn More</button>
-
-        <img src="/images/image-hero-phone.png" alt=""/>
+        <figure className='Phone'>
+        <img className='' src="/images/image-hero-phone.png" alt=""/>
+        </figure>
         </div>
     )
 }
 
-export default Body
+export default HomeBody
 
 
  

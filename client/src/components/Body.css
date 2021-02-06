@@ -1,7 +1,7 @@
 @media (min-width: 320px) {
   .Body {
     background-color: #e7816b;
-    height: 28em;
+    height: 70em ;
   }
 
   .Body__Header {
@@ -32,6 +32,21 @@
   .Tablet {
     display: none;
   }
+  /* 
+  figure {
+
+    overflow: hidden;
+    margin: 0;
+  }
+
+  figure img {
+    display: block;
+    width: 100%;
+  }
+
+  .Phone img {
+    margin: -22% 0;
+  } */
 }
 
 @media (min-width: 600px) {
@@ -45,5 +60,6 @@
 
   .Tablet {
     display: block;
+    /* margin-top: 30em; */
   }
 }

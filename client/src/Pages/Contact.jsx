@@ -2,14 +2,14 @@ import React from 'react'
 import Footer from '../components/MobileHomePage/Footer'
 import Navbar from '../components/MobileHomePage/Navbar'
 import LandmarkImages from '../components/About/LandmarkImages'
-import Body from '../components/Contact/Body'
+import ContactBody from '../components/Contact/ContactBody'
 
 function Contact() {
 
     return (
         <div>
         <Navbar />
-        <Body />
+        <ContactBody />
       <LandmarkImages  Circle='/images/bg-pattern-small-circle.svg'/>
       <Footer />
         </div>

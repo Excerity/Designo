@@ -1,21 +1,46 @@
-.Desc {
-    background-color: #FDF3F0;
-}
+@media (min-width: 320px) {
+  .Map__Images {
+    background-color: #fdf3f0;
+    margin-top: -8.5em;
+    padding-bottom: 6em;
+  }
 
-.Desc__Container {
+  .Map__Images__Container {
     text-align: center;
     margin-top: 7em;
-}
+    padding-top: 5em;
+  }
 
-.Country {
-    margin-bottom: .8em;
-}
+  .Country {
+    margin-bottom: 0.8em;
+    color: #e7816b;
+  }
 
-p {
-    margin-top: .5em;
-    margin-bottom: .5em;
-}
-.Contact {
+  p {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+  .Contact {
     margin-top: 1.3em;
+  }
 }
 
+@media (min-width: 600px) {
+  .Map__Images {
+    width: 87%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 4.5em;
+  }
+
+  .Map_Images_Left {
+    position: absolute;
+    float: left;
+    margin-left: 3em;
+  }
+
+  .Map_Images_Right {
+    margin-top: 3.9em;
+    margin-left: 6em;
+  }
+}

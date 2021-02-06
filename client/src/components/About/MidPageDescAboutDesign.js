@@ -3,12 +3,22 @@ import './AboutPageDescWebDesign.css'
 
 function MidPageDescWebDesign({ FirstH3, SecondH3, Title}) {
     return (
-        <div className='Desc'>
-            <div className='Desc__Text'>
-            <div className='Desc__Title'>
+        <div className='About'>
+            <div className='About__Text'>
+            <div className='About__Title'>
                <h2>{Title}</h2> 
             </div>
-            <h3 className='Desc__FirstHeader'>
+            <h3 className='About__FirstHeader'>
+                <div>
+                <p></p>
+                <p></p>
+                <p></p>
+                </div>
+                <div>
+                <p></p>
+                <p></p>
+                <p></p> 
+                </div>
             We are a crew of strategists, problem-solvers, and technologists. Every design is thoughtfully 
   crafted from concept to launch, ensuring success in its given market. We are constantly updating 
   our skills in a myriad of platforms.

@@ -1,5 +1,4 @@
 import React from 'react'
-import BodyWebDesign from '../components/About/BodyWebDesign';
 import AboveFooter from '../components/MobileHomePage/AboveFooter';
 import Footer from '../components/MobileHomePage/Footer';
 import Navbar from '../components/MobileHomePage/Navbar';
@@ -9,13 +8,14 @@ import LandmarkImages from '../components/About/LandmarkImages';
 import SmallCircle from '../components/SmallCircle';
 import WorldClassImg from '../components/About/WorldClassImg';
 import RealDeal from '../components/About/RealDeal';
+import BodyAbout from '../components/About/BodyAbout'
 
 function About() {
     return (
         <div>
       <Navbar />
       <AboutUsImage />
-      <BodyWebDesign />
+      <BodyAbout/>
      <WorldClassImg />
       <MidPageDescAboutDesign Title='World-class talent'/>
    <LandmarkImages  Circle='/images/bg-pattern-small-circle.svg'/>

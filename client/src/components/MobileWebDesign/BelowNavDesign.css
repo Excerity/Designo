@@ -1,0 +1,14 @@
+@media (min-width: 320px) {
+  .Body_Below__Nav {
+    background-color: #e7816b;
+    height: 20em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 600px) {
+  .Body_Below__Nav {
+    width: 90%;
+  }
+}
