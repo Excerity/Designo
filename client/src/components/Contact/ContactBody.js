@@ -7,7 +7,7 @@ import './ContactBody.css'
 function Body() {
 
     return (
-        <div className='Body'>
+        <div className='Contact__Body'>
             <h1>Contact Us</h1>
             <p> Ready to take it to the next level? Let’s talk about your project or idea and find out how 
   we can help your business grow. If you are looking for unique digital experiences that’s 

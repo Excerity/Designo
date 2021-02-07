@@ -1,5 +1,5 @@
 import React from 'react'
-import '../Body.css'
+import './HomeBody.css'
 
 function HomeBody() {
     return (

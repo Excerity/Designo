@@ -10,6 +10,10 @@
   .Tablet {
     display: none;
   }
+
+  .DesktopImg {
+    display: none;
+  }
 }
 
 /* tablets */
@@ -31,7 +35,7 @@
 }
 
 @media (min-width: 801px) {
-  /* .TabletImg {
+  .TabletImg {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -39,5 +43,18 @@
 
   .MobileImg {
     display: none;
-  } */
+  }
+  .DesktopImg {
+    display: none;
+  }
+}
+
+@media (min-width:1281px) {
+  .TabletImg {
+    display: none;
+  }
+
+  .DesktopImg {
+    display: block;
+  }
 }

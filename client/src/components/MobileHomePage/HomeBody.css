@@ -2,6 +2,7 @@
   .Body {
     background-color: #e7816b;
     height: 70em ;
+   
   }
 
   .Body__Header {
@@ -51,7 +52,11 @@
 
 @media (min-width: 600px) {
   .Body {
-    width: 40em;
+    /* width: 40em; */
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+    margin-bottom: 5em;
   }
 
   .Mobile {
@@ -62,4 +67,33 @@
     display: block;
     /* margin-top: 30em; */
   }
+}
+
+
+@media (min-width:801px) {
+
+  .Body {
+    height: 50em;
+  }
+
+  .Body__Header {
+   margin-right: 70%;
+   font-size: 30px;
+  }
+
+  .Body__Paragraph {
+    margin-right: 70%;
+
+  }
+
+  .Body__Button {
+    display: none;
+  }
+
+  .Phone {
+    position: relative;
+    left: 20%;
+    top: -40%;
+  }
+
 }

@@ -12,11 +12,11 @@ function MobileHomePage() {
         <div>
          <Navbar />
       <HomeBody />
-         <DesignImage MobileType='web' TabletType='web'/>
+         <DesignImage MobileType='web' TabletType='web' DesktopType='app' />
          <DesignImageDesc  title='Web Design'/>
          <DesignImage MobileType='app' TabletType='app' />
          <DesignImageDesc  title='App'/>
-         <DesignImage MobileType='graphic' TabletType='graphic' /> 
+         <DesignImage MobileType='graphic' TabletType='graphic' DesktopType='graphic'/> 
          <DesignImageDesc  title='Graphic Design'/> 
       <MidPage 
      Passionate='./images/illustration-passionate.svg'

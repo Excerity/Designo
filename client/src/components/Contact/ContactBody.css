@@ -1,6 +1,9 @@
-.Body {
+@media (min-width: 320px) {
+
+.Contact__Body {
   background-color: #e7816b;
   text-align: center;
+  color: #ffffff;
 }
 
 .Form__Container {
@@ -15,8 +18,22 @@
   text-align: left;
 }
 
+.Form > TextField {
+  color: #ffffff;
+}
+
 Button {
   top: 50%;
   left: 25%;
   width: 60%;
+}
+
+}
+
+@media (min-width: 600px) {
+  .Contact__Body {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
