@@ -8,11 +8,27 @@
 }
 
 @media (min-width: 600px) {
-  .MidPage > img {
-    width: 50%;
-    margin-left: 3%;
-}
 
   .MidPage__Image {
+    width: 50%;
+    margin-left: 3%;
   }
+}
+
+
+@media (min-width:1281px) {
+    /* .MidPage__Container {
+      display: grid;
+      grid-template-rows: 10rem 10rem 10rem;
+      grid-template-rows: 10rem 10rem 10rem;
+      grid-gap: 1rem;
+    }
+
+  
+  .MidPage__Image {
+    width: 50%;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+     */
 }

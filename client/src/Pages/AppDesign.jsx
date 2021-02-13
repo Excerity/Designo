@@ -10,28 +10,41 @@ import'../TabletDesc.css'
 import BelowNavDesign from '../components/MobileWebDesign/BelowNavDesign';
 import DesignImage from '../components/MobileHomePage/DesignImage';
 import DesignImageDesc from '../components/MobileHomePage/DesignImageDesc';
+import '../DesktopGridLayout.css'
 
 function MobileAppDesign() {
     return (
         <div>
      <Navbar />
       <BelowNavDesign title='App Design' Para1='Our mobile designs bring intuitive digital solutions' Para2='to your customers right at their fingertips.' />
-
-      <AppDesignImages image='/images/image-airfilter.jpg' />
+        <div className="WebDesign__MidPage__Container">
+            <div>
+            <AppDesignImages image='/images/image-airfilter.jpg' />
       <MidPageDescWebDesign FirstH3='Solving the problem of poor indoor air' SecondH3='quality by filtering the air' Title='Airfilter'/>
-      
-      <AppDesignImages image='/images/image-eyecam.jpg' />
-      <MidPageDescWebDesign FirstH3='Product that lets you edit your favorite' SecondH3='photos and videos at any time' Title='Eyecam'/>
-   
+            </div>
 
-      <AppDesignImages image='/images/image-faceit.jpg' />
+            <div>
+            <AppDesignImages image='/images/image-eyecam.jpg' />
+      <MidPageDescWebDesign FirstH3='Product that lets you edit your favorite' SecondH3='photos and videos at any time' Title='Eyecam'/>
+            </div>
+
+            <div>
+            <AppDesignImages image='/images/image-faceit.jpg' />
       <MidPageDescWebDesign FirstH3='Get to meet your favorite internet' SecondH3='superstar with the faceit app' Title='Faceit'/>
-     
-    <AppDesignImages image='/images/image-todo.jpg' />
+            </div>
+
+            <div>
+            <AppDesignImages image='/images/image-todo.jpg' />
     <MidPageDescWebDesign FirstH3='A todo app that features cloud sync' SecondH3='with light and dark mode' Title='Todo'/>
-    
-        <AppDesignImages image='/images/image-blogr.jpg' />
+            </div>
+
+            <div>
+
+            <AppDesignImages image='/images/image-blogr.jpg' />
         <MidPageDescWebDesign FirstH3='A VR experience app made for' SecondH3='Loopstudios' Title='Loopstudios'/>
+            </div>
+
+        </div>
      
          <DesignImage MobileType='web' TabletType='web'/>
          <DesignImageDesc  title='Web Design'/>

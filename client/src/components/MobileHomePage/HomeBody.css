@@ -26,15 +26,15 @@
     margin-left: 40%;
   }
 
-  .Desktop {
+  /* .Home__Desktop {
     display: none;
   }
 
-  .Tablet {
+  .Home__Tablet {
     display: none;
-  }
-  /* 
-  figure {
+  }  */
+  
+  /* figure {
 
     overflow: hidden;
     margin: 0;
@@ -47,7 +47,7 @@
 
   .Phone img {
     margin: -22% 0;
-  } */
+  }  */
 }
 
 @media (min-width: 600px) {
@@ -59,14 +59,13 @@
     margin-bottom: 5em;
   }
 
-  .Mobile {
+  /* .Home__Mobile {
     display: none;
   }
 
-  .Tablet {
+  .Home__Tablet {
     display: block;
-    /* margin-top: 30em; */
-  }
+  } */
 }
 
 
@@ -96,4 +95,19 @@
     top: -40%;
   }
 
+}
+
+
+@media (min-width:1281px) {
+  /* .Home__Desktop {
+    display: block;
+  }
+
+    .Home__Tablet {
+      display: none;
+  }
+
+  .Home__Mobile {
+    display: none;
+} */
 }

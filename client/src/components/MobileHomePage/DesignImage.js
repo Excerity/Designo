@@ -1,23 +1,18 @@
 import React from 'react'
 import './DesignImage.css'
-function DesignImage({ MobileType, TabletType, DesktopType }) {
+function DesignImage({ MobileType, TabletType }) {
     return (
         <div>
-            <div className='Tablet'>
-            <img className='TabletImg' src={`/images/tablet-${TabletType}-design.jpg`} alt=""/>
+            <div className='Home__Tablet'>
+            <img className='Home__TabletImg' src={`/images/tablet-${TabletType}-design.jpg`} alt=""/>
             </div>
+ 
+            <div className='Home__Mobile'>
+            <img  className='Home__MobileImg' src={`/images/mobile-${MobileType}-design.jpg`} alt=""/>
+            </div> 
 
-            <div className='Mobile'>
-            <img  className='MobileImg' src={`/images/mobile-${MobileType}-design.jpg`} alt=""/>
-            </div>
 
-            <div className='Desktop'>
-            <img  className='DesktopImgWeb DesktopImg' src={`/images/desktop-web-design-large.jpg`} alt=""/>
-            </div>
-
-            <div className='Desktop'>
-            <img  className='DesktopImg' src={`/images/desktop-${DesktopType}-design.jpg`} alt=""/>
-            </div>
+            
         </div>
     )
 }

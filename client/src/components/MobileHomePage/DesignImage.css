@@ -1,60 +1,57 @@
 /* phones */
 
 @media (min-width: 320px) {
-  .MobileImg {
+  .Home__MobileImg {
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
 
-  .Tablet {
+  .Home__Tablet {
     display: none;
   }
 
-  .DesktopImg {
-    display: none;
-  }
+ 
 }
 
 /* tablets */
 @media (min-width: 600px) {
-  .TabletImg {
+  .Home__TabletImg {
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
 
-  .MobileImg {
+  .Home__MobileImg {
     display: none;
   }
 
-  .Tablet {
+  .Home__Tablet {
     display: inline;
     margin-bottom: -15em;
   }
 }
 
 @media (min-width: 801px) {
-  .TabletImg {
+  .Home__TabletImg {
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
 
-  .MobileImg {
+  .Home__MobileImg {
     display: none;
   }
-  .DesktopImg {
-    display: none;
-  }
+ 
 }
-
-@media (min-width:1281px) {
-  .TabletImg {
-    display: none;
+  @media (min-width: 1281px) {
+    .Home__TabletImg {
+      display: none;
+    }
+  
+      
   }
 
-  .DesktopImg {
-    display: block;
-  }
-}
+
+
+

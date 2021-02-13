@@ -37,7 +37,7 @@ function LocationImages({ Circle }) {
         <div className="circle">
         <img src={Circle} alt=""/>
         </div>
-       
+    
         <div>
 
    

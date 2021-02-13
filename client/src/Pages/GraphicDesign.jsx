@@ -13,14 +13,22 @@ function GraphicDesign() {
         <div>
           <Navbar />
       <BelowNavDesign title='Graphic Design' Para1='We deliver eye-catching branding materials that' Para2='are tailored to meet your business objectives.'  />
+      <div className="WebDesign__MidPage__Container">
+      <div>
       <MidPageDesign image='/images/image-change.jpg' />
       <MidPageDescGraphicDesign FirstH3='A book cover designed for' SecondH3='Tim Brown’s new release, ‘Change' Title='Tim Brown'/>
+      </div>
       
-    <MidPageDesign image='/images/image-boxed-water.jpg' />
+        <div>
+        <MidPageDesign image='/images/image-boxed-water.jpg' />
       <MidPageDescGraphicDesign FirstH3='A simple packaging concept made for' SecondH3='Boxed Water' Title='Boxed water'/>
-  
-    <MidPageDesign image='/images/image-science.jpg' />
+        </div>
+        
+        <div>
+        <MidPageDesign image='/images/image-science.jpg' />
       <MidPageDescGraphicDesign FirstH3='A poster made in collaboration with the' SecondH3='Federal Art Project' Title='Science!'/>
+        </div>
+      </div>
    
          <DesignImage MobileType='app' TabletType='app'/>
          <DesignImageDesc  title='App Design'/>

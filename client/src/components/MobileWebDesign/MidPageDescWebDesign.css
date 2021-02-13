@@ -44,3 +44,10 @@
     height: 24.5em;
   }
 }
+
+
+@media (min-width:1281px) {
+    /* .Desc_Text {
+      display: grid;
+    } */
+}

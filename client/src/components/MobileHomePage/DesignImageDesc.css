@@ -1,5 +1,13 @@
-.Desc {
+@media (min-width: 320px) {
+  .Desc {
   text-align: center;
   color: white;
   background-color: white !important;
+}
+}
+
+@media (min-width: 1281px) {
+  .Design__Image__Desc {
+    display: none;
+  }
 }
