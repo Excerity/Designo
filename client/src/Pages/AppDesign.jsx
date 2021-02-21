@@ -11,6 +11,10 @@ import BelowNavDesign from '../components/MobileWebDesign/BelowNavDesign';
 import DesignImage from '../components/MobileHomePage/DesignImage';
 import DesignImageDesc from '../components/MobileHomePage/DesignImageDesc';
 import '../DesktopGridLayout.css'
+import '../DesignImageDesktop.css'
+import DesignImageDesktop from '../DesignImageDesktop';
+import DesignImageDesktopDesc from '../DesignImageDesktopDesc';
+
 
 function MobileAppDesign() {
     return (
@@ -50,6 +54,19 @@ function MobileAppDesign() {
          <DesignImageDesc  title='Web Design'/>
          <DesignImage MobileType='graphic' TabletType='graphic'/>
          <DesignImageDesc  title='Graphic Design'/>
+
+         <div className="Above__Footer__Desktop__Design__Images">
+      <div className='Design__Image__Desktop__App'>
+          <DesignImageDesktop type='web'/>  
+          <DesignImageDesktopDesc/>
+           </div>
+     
+     <div className='Design__Image__Desktop__Graphic  '>
+     <DesignImageDesktop type='graphic'/>
+      <DesignImageDesktopDesc />
+     </div>
+
+      </div>
 
       <AboveFooter />
       <Footer /> 

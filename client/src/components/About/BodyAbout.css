@@ -1,9 +1,19 @@
-@media (min-width: 320px) {
+
   .Body__About {
     background-color: #e7816b;
-    height: 20em;
+    height: 30em;
+   text-align: center;
   }
-}
 
-@media (min-width: 600px) {
-}
+  @media (min-width:1025px) {
+    .Body__About {
+      margin-left: 8%;
+      margin-right: 9%;
+      padding-top: 7%;
+      }
+
+   
+  }
+
+
+

@@ -22,3 +22,12 @@
   color: #e7816b;
   padding-bottom: 1.5em;
 }
+
+@media (min-width:1025px) { 
+  .About {
+    height: 40em;
+    margin-right: 15%;
+    margin-left: 15%;
+    
+  }
+}

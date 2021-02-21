@@ -63,18 +63,16 @@ function MobileWebDesign() {
       <div className="Above__Footer__Desktop__Design__Images">
       <div className='Design__Image__Desktop__App'>
           <DesignImageDesktop type='app'/>  
-          <DesignImageDesktopDesc/>
+          <DesignImageDesktopDesc title='App'/>
            </div>
      
      <div className='Design__Image__Desktop__Graphic  '>
      <DesignImageDesktop type='graphic'/>
-      <DesignImageDesktopDesc />
+      <DesignImageDesktopDesc title='Graphic'/>
      </div>
 
       </div>
       
- 
-
 
       <AboveFooter />
       <Footer />  

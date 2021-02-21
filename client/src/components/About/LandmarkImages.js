@@ -1,13 +1,14 @@
 import React from 'react'
+import { Fragment } from 'react'
 import './LandmarkImages.css'
 
 function LocationImages({ Circle }) {
     return (
-        <div className='MidPage'>
+        <div className='MidPage__Landmark'>
      
         <div className="Canada__Container">
         <div className="circle">
-            <img src={Circle} alt=""/>
+            <img className='LandMark__Small__Circle' src={Circle} alt=""/>
         
         </div>
         

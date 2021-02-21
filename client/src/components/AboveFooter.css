@@ -2,6 +2,8 @@
 
 .AboveFooter {
   background-color: #e7816b;
+  height: 27em;
+  z-index: 3;
 }
 
 .AboveFooter__Header {
@@ -19,4 +21,20 @@
   margin-left: 40%;
   margin-top: 1.8em;
 }
+
+.Material__UI__Button__Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 9em;
+  margin-right: 33%;
+}
+
+.Material__Ui__Button__Above__Footer {
+
+  width: 15em;
+  height: 4em;
+
+}
+
 }

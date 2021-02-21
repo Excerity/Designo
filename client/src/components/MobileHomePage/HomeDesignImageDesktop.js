@@ -21,7 +21,7 @@ function HomeDesignImageDesktop() {
 
 <div className='Home__Desktop__Images'>
         <div className='Desktop Home__Desktop__Image__Left Desktop__Web__Design '>
-            <img  className='Home__DesktopImg DesktopImg ' src={`/images/desktop-web-design-large.jpg`} alt=""/>
+            <img  className='Home__DesktopImg DesktopImg ' src={`/images/desktop-website-home-design-large.jpg`} alt=""/>
             </div> 
   
             <div className='Home__Desktop Home__Desktop__Image__Right Desktop__App__Design' >

@@ -61,7 +61,7 @@
 }
 
 @media (min-width: 1281px) {
-   .MidPage {
+   /* .MidPage {
      display: flex;
      justify-content: space-evenly;
      flex-wrap: nowrap;
@@ -72,7 +72,6 @@
    }
 
    .MidPage__Paragraph22 {
-    /* display: block; */
     margin-top: 5em;
     white-space: nowrap;
     position: relative;
@@ -92,7 +91,7 @@
   .MidPage__Picture__Title {
     position: relative;
    left: 50%;
-  }
+  } */
 
 
 }

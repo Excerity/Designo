@@ -64,7 +64,6 @@
     top: -2em;
     margin-left: 70%;
     bottom: 5em;
-    
   }
 
   .UK__Image {
@@ -85,4 +84,32 @@
     text-align: center;
     left: 1em;
   }
+}
+
+@media (min-width:1025px) {
+  /* .Canada__Container,
+  .Australia__Container,
+  .UK__Container
+  {
+    display: flex;
+  } */
+
+  .MidPage__Landmark {
+    margin-top: 8em;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .UK__Image {
+    margin-left: 53%;
+  }
+
+  .Australia__Image {
+    margin-left: 53%;
+  }
+
+  .Canada__Image {
+    margin-left: 53%;
+  }
+
 }

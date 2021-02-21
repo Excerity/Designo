@@ -1,5 +1,6 @@
 import React from 'react'
 import '../AboveFooter.css'
+import Button from '@material-ui/core/Button';
 
 function AboveFooter() {
     return (
@@ -15,8 +16,9 @@ function AboveFooter() {
             <p>help your business grow.</p>
         </div>
            
-
-        <button className='AboveFooter__Button'>Get in touch</button>
+        <div className="Material__UI__Button__Container">
+        <Button className='Material__Ui__Button__Above__Footer' variant="contained">Get In Touch</Button>
+        </div>
 
         </div>
     )

@@ -1,15 +1,13 @@
 import React from 'react'
+import { Fragment } from 'react'
 import './BodyAbout.css'
 
 function BodyAbout() {
     return (
         <div className='Body__About'>
-            <h2 className='Body__Header'>
-              <div>About us</div> 
-           
-            </h2>
+        <h2>About</h2>
 
-        <div className='Body__Paragraph'>
+        <div className='Body__Paragraph__About'>
         <p>Founded in 2010, we are a creative agency that</p>
         <p>produces lasting results for our clients. We’ve</p>
         <p>partnered with many startups, corporations, and</p>
@@ -19,8 +17,9 @@ function BodyAbout() {
         <p>connect with our clients' audiences.</p>
       
         </div>
-
-        </div>
+    
+            </div>
+    
     )
 }
 

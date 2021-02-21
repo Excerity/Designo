@@ -7,6 +7,9 @@ import MidPageDescGraphicDesign from '../components/GraphicDesign/MidPageDescGra
 import BelowNavDesign from '../components/MobileWebDesign/BelowNavDesign';
 import DesignImage from '../components/MobileHomePage/DesignImage';
 import DesignImageDesc from '../components/MobileHomePage/DesignImageDesc';
+import DesignImageDesktopDesc from '../DesignImageDesktopDesc';
+import DesignImageDesktop from '../DesignImageDesktop';
+
 
 function GraphicDesign() {
     return (
@@ -34,6 +37,20 @@ function GraphicDesign() {
          <DesignImageDesc  title='App Design'/>
          <DesignImage MobileType='web' TabletType='web'/>
          <DesignImageDesc  title='Web Design'/>
+
+         <div className="Above__Footer__Desktop__Design__Images">
+      <div className='Design__Image__Desktop__App'>
+          <DesignImageDesktop type='app'/>  
+          <DesignImageDesktopDesc title='app'/>
+           </div>
+     
+     <div className='Design__Image__Desktop__Graphic  '>
+     <DesignImageDesktop type='web'/>
+      <DesignImageDesktopDesc title='web' />
+     </div>
+
+      </div>
+
 
       <AboveFooter />
       <Footer />   
