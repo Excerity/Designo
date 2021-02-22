@@ -2,13 +2,31 @@
   /* smartphones, iPhone, portrait 480x320 phones */
 
   .Footer {
+    /* padding-top: 65%; */
+    padding-top: 20em;
+    height: 53em;
+    margin-top: -14em;
     text-align: center;
     background-color: #1d1c1e;
   }
 
-  .Footer__Begin {
-    margin-top: 1em;
+  .Footer__Logo {
+    width: 60%;
+    padding-bottom: 3em;
+  }
+
+  .Footer__Link__About,
+  .Footer__Link__Location,
+  .Footer__Link__Contact
+  {
+    margin-bottom: 2em;
+  }
+  
+     
+  .Footer__Link {
+    text-decoration: none;
     color: #ffffff;
+    font-size: 20px;
   }
 
   .Footer__Links {
@@ -19,36 +37,97 @@
     margin-bottom: 2em;
     color: #979797;
   }
+
+  .Icons img {
+    margin-left: 1.5em;
+  }
 }
 
-@media (min-width: 600px) {
-  .Logo {
-    width: 40%;
+@media (min-width: 601px) {
+  
+  .Footer {
+    height: 40em;
+  }
+  
+  .Footer__Logo {
+    width: 30%;
+    padding-bottom: 3em;
+    float: left;
+    margin-left: 5%;
+    margin-right: 13%;
   }
 
-  .TabletFooterStart {
+  .Footer__Links {
     display: flex;
+    justify-content: space-evenly;
+  }
+
+  .Footer__Link__About,
+  .Footer__Link__Location,
+  .Footer__Link__Contact
+  {
+    margin-bottom: 0;
+  }
+
+  .Footer__Bottom__Container  {
+    /* display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 2em;  */
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 2%; 
+    margin-right: 45%;
+  }
+
+  .Footer__Middle__Para {
+    margin-right: 11em;
+    white-space: nowrap;
+  }
+
+  .Footer__Para__Number__Two {
+     margin-left: -85%; 
+
+  }
+  
+  .Icons  {
+    position: absolute;
+     display: flex; 
     justify-content: space-between;
-    padding-top: 2em;
+    margin-left: 59%;
+    margin-top: -4em;
+
+ }
+
+ .Icons img {
+   width: 20px;
+ }
+
+}
+
+
+@media (min-width:1025px) {
+  .Footer__Bottom__Container  {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 2%; 
+    margin-right: 45%;
   }
 
-  .Footer__Begin {
-    text-decoration: none;
-    padding-left: 1em;
-    color: #979797;
+  .Footer__Logo {
+    width: 20%;
+    padding-bottom: 3em;
   }
 
-  .Footer__Bottom__Container {
-    display: flex;
-    padding-top: 3em;
-  }
+    
+  .Icons  {
+    margin-left: 77%;
+}
 
-  .Icons {
-    padding-left: 4em;
-    padding-top: 3.8em;
-  }
+.Footer__Middle__Para {
+ 
+}
 
-  .Icons > img {
-    padding-left: 0.5em;
-  }
+.Footer__Para__Number__Two {
+  margin-right: -80%;
+}
 }

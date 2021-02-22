@@ -6,3 +6,18 @@
         margin-bottom: 2em;
     }
 }
+
+@media (min-width: 1025px) {
+
+ 
+
+
+
+/* img:nth-child(1) {
+          float: right;
+      }   */
+
+      /* img:nth-child(even) {
+        float: left;
+    }   */
+  }

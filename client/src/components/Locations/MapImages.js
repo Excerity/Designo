@@ -1,12 +1,20 @@
 import React from 'react'
 import './MapImages.css'
 
-function MapImages({ Canada, Australia, UK }) {
+function MapImages({ Canada, Australia, Uk }) {
     return (
         <div>
-            <img id='MapImageCanada' src={Canada} alt=""/>
-            <img src={Australia} alt=""/>
-            <img src={UK} alt=""/>
+            <div id='MapImageCanada' >
+            <img src={Canada} alt=""/>
+            </div>
+
+            <div id='MapImageAustralia' >
+            <img   src={Australia} alt=""/>
+            </div>
+            
+            <div  id='MapImageUK'>
+            <img  src={Uk} alt=""/>
+            </div>
         </div>
     )
 }

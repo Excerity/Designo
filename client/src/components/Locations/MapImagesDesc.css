@@ -44,3 +44,13 @@
     margin-left: 6em;
   }
 }
+
+@media (min-width: 1025px) {
+  .Map__Images {
+    margin-top: -31em;
+  } 
+
+  .Map_Images_Right {
+    margin-left: -26em;
+  }
+}

@@ -6,8 +6,13 @@ import Footer from '../components/MobileHomePage/Footer'
 import Navbar from '../components/MobileHomePage/Navbar'
 import MapImages from '../components/Locations/MapImages'
 import MapImagesDesc from '../components/Locations/MapImagesDesc'
+import '../components/Locations/Location__Desktop__Layout.css'
 
 function Locations() {
+
+
+
+
     return (
         <div>
          <Navbar />
@@ -30,7 +35,7 @@ function Locations() {
          Phone= 'P : (02) 6720 9092'
           Mail='M : contact@designo.au' />
            <MapImages  
-           Australia='/images/image-map-uk.png'/>
+           Uk='/images/image-map-uk.png'/>
          <MapImagesDesc 
          Country='United Kingdom' 
          Office='Designo UK Office' 

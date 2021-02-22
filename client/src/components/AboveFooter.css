@@ -1,9 +1,14 @@
 @media (min-width: 320px) {
 
 .AboveFooter {
+
+  position: relative;
+  margin-left: 5%;
+  margin-right: 5%;
   background-color: #e7816b;
   height: 27em;
   z-index: 3;
+  border-radius: 15px;
 }
 
 .AboveFooter__Header {
@@ -26,7 +31,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 9em;
+  padding-top: 1.5em;
   margin-right: 33%;
 }
 
@@ -36,5 +41,9 @@
   height: 4em;
 
 }
+
+  .AboveFooter__Text__Container {
+    padding-top: 5em;
+  }
 
 }
