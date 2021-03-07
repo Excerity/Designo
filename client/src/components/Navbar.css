@@ -1,4 +1,3 @@
-@media (min-width: 320px) {
   .nav {
     display: flex;
     margin-top: 3em;
@@ -16,9 +15,9 @@
   .Navbar__Logo {
     width: 50%;
   }
-}
 
-@media (min-width: 600px) {
+
+@media (min-width: 768px) {
   .Hamburger {
     display: none !important;
   }
@@ -31,11 +30,33 @@
 
   .Nav__Links {
     display: block;
-    margin-left: 5em;
+    margin-left: 12em;
+    font-family: 'Jost', sans-serif;  
+    font-size: 16px;
   }
+
+   /* Link {
+    float: right;
+  } */
 
   .link {
     padding-left: 2em;
     text-decoration: none;
   }
+
+  .Navbar__Logo {
+    width: 30%;
+  }
 }
+
+@media (min-width: 1025px) {
+  .Navbar__Logo {
+    width: 30%;
+  }
+}
+
+/* @media (min-width: 1025px)  {
+  .Navbar__Logo {
+    width: 20%;
+  }
+} */

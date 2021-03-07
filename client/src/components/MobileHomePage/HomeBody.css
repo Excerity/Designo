@@ -1,30 +1,87 @@
-@media (min-width: 320px) {
+
   .Body {
     background-color: #e7816b;
     height: 70em ;
-   
+    margin-bottom: 8em;
+  }
+
+  figure img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+
+  .Home__Phone__Image {
+    position: relative;
+    right: 4em;
+    bottom: 2em;
   }
 
   .Body__Header {
-    padding-top: 4em;
+    padding-top: 2em;
     margin-top: 1.5em;
     text-align: center;
     color: #ffffff;
+    font-family: 'Jost', sans-serif;  
+    font-size: 30px;
+    font-weight: 500;
   }
 
-  .Body__Paragraph {
+  .Body__Paragraph__Mobile {
     margin-top: 2.5em;
     text-align: center;
     color: #ffffff;
+    font-family: 'Jost', sans-serif;  
   }
 
-  .Body__Button {
-    margin-top: 1.8em;
+  .Body__Paragraph__Tablet {
+    margin-top: 2.5em;
     text-align: center;
-    width: 22%;
-    padding: 1em;
-    margin-left: 40%;
+    color: #ffffff;
+    font-family: 'Jost', sans-serif;  
+    display: none;
   }
+
+ 
+  .Body__Paragraph__Desktop {
+    margin-top: 2.5em;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Jost', sans-serif;  
+    display: none;
+  }
+
+  /* .Body__Button {
+    top: 2em;
+    width: 14em;
+    height: 4em; 
+    left: 10em;
+    border-radius: 10px;
+    
+  }
+
+  .Material__Ui__Button__HomePage {
+    display: block;
+  align-items: center;
+  justify-content: center;
+  } */
+
+.Home__Page__Button__Container {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+  .HomePage__Button {
+    max-width: 13em;
+    height: 3.5em;
+    border-radius: 6px;
+    background-color: #ffffff;
+    color: black;
+    border: #ffffff;
+  }
+
 
   /* .Home__Desktop {
     display: none;
@@ -48,9 +105,11 @@
   .Phone img {
     margin: -22% 0;
   }  */
-}
 
-@media (min-width: 600px) {
+
+ @media (min-width: 600px) { 
+ 
+
   .Body {
     /* width: 40em; */
     margin-right: auto;
@@ -58,6 +117,28 @@
     width: 90%;
     margin-bottom: 5em;
   }
+
+  .Home__Phone__Image {
+    right: 0;
+    bottom: 2em;
+
+  }
+
+  .Body__Paragraph__Mobile {
+    display: none;
+  }
+
+  .Body__Paragraph__Tablet {
+    display: block;
+  }
+
+  
+  /* .Body__Button {
+  
+    left: 21em;
+    width: 25%;
+
+  } */
 
   /* .Home__Mobile {
     display: none;
@@ -70,7 +151,7 @@
 
 
 @media (min-width:801px) {
-
+/* 
   .Body {
     height: 50em;
   }
@@ -93,12 +174,19 @@
     position: relative;
     left: 20%;
     top: -40%;
-  }
+  } */
 
 }
 
 
-@media (min-width:1281px) {
+@media (min-width:1025px) {
+
+  .Body {
+    margin-bottom: 25em;
+  }
+
+  
+
   /* .Home__Desktop {
     display: block;
   }

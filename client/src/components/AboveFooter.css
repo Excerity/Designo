@@ -11,6 +11,10 @@
   border-radius: 15px;
 }
 
+.AboveFooter__Paragraph__Desktop {
+ display: none;
+}
+
 .AboveFooter__Header {
   text-align: center;
   font-size: 2em;
@@ -31,19 +35,51 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 1.5em;
-  margin-right: 33%;
+  
 }
 
 .Material__Ui__Button__Above__Footer {
-
-  width: 15em;
+ background-color: #ffffff; 
+ color: black;
+    border: #ffffff;
+  width: 13em;
   height: 4em;
-
+  border-radius: 6px;
 }
 
   .AboveFooter__Text__Container {
     padding-top: 5em;
+  }
+
+}
+
+@media (min-width:1025px) {
+
+  .AboveFooter__Paragraph {
+    display: none;
+  }
+
+  .AboveFooter__Paragraph__Desktop {
+    margin-left: 5%;
+    display: block;
+    color: #ffffff;
+   }
+
+   .AboveFooter__Header {
+     margin-right: 70%;
+    font-size: 2em;
+    color: #ffffff;
+  }
+  
+  #H3__AboveFooter {
+    margin-right: 11%;
+    margin-bottom: .5em;
+  }
+
+  .Material__UI__Button__Container {
+    display: block;
+    margin-left: 76%;
+    margin-top: -7%;
   }
 
 }

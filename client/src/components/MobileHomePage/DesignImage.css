@@ -16,6 +16,11 @@
 
 /* tablets */
 @media (min-width: 600px) {
+
+.Home__Desktop__Images {
+  margin-top: 10em;
+}
+
   .Home__TabletImg {
     display: block;
     margin-left: auto;
@@ -44,7 +49,7 @@
   }
  
 }
-  @media (min-width: 1281px) {
+  @media (min-width: 1025px) {
     .Home__TabletImg {
       display: none;
     }

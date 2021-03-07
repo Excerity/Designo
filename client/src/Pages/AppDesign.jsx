@@ -2,7 +2,7 @@ import React from 'react'
 import BodyWebDesign from '../components/MobileWebDesign/BelowNavDesign';
 import AboveFooter from '../components/MobileHomePage/AboveFooter';
 import Footer from '../components/MobileHomePage/Footer';
-import Navbar from '../components/MobileHomePage/Navbar';
+import Navbar from '../components/Nav/Navbar';
 // import MidPageWebDesign from '../components/MobileWebDesign/MidPageDesign';
 import MidPageDescWebDesign from '../components/MobileWebDesign/MidPageDescWebDesign';
 import AppDesignImages from '../components/MobileAppDesign/AppDesignImages';

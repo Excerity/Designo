@@ -1,6 +1,6 @@
 import React from 'react'
 import Footer from '../components/MobileHomePage/Footer'
-import Navbar from '../components/MobileHomePage/Navbar'
+import Navbar from '../components/Nav/Navbar'
 import LandmarkImages from '../components/About/LandmarkImages'
 import ContactBody from '../components/Contact/ContactBody'
 

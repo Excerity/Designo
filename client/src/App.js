@@ -1,5 +1,5 @@
 import './index.css';
-import Navbar from './components/MobileHomePage/Navbar'
+import Navbar from './components/Nav/Navbar'
 import HomeBody from './components/MobileHomePage/HomeBody';
 import MidPage from './components/MobileHomePage/MidPage';
 import AboveFooter from './components/MobileHomePage/AboveFooter';

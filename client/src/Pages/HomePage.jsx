@@ -3,7 +3,7 @@ import HomeBody from '../components/MobileHomePage/HomeBody';
 import MidPage from '../components/MobileHomePage/MidPage';
 import AboveFooter from '../components/MobileHomePage/AboveFooter';
 import Footer from '../components/MobileHomePage/Footer';
-import Navbar from '../components/MobileHomePage/Navbar';
+import Navbar from '../components/Nav/Navbar';
 import DesignImage from '../components/MobileHomePage/DesignImage';
 import DesignImageDesc from '../components/MobileHomePage/DesignImageDesc';
 import HomeDesignImageDesktop from '../components/MobileHomePage/HomeDesignImageDesktop';
