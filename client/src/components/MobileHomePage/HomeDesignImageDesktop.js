@@ -3,7 +3,7 @@ import './HomeDesignImageDesktop.css'
 
 function HomeDesignImageDesktop() {
     return (
-        <div>
+        <div className='Home__Design__Image__Desktop__Container'>
             
             {/* <div className='Home__Desktop__Images'>
         <div className='Desktop Home__Desktop__Image__Left Desktop__Web__Design '>
@@ -32,7 +32,6 @@ function HomeDesignImageDesktop() {
             <img  className='Home__DesktopImg DesktopImg' src={`/images/desktop-graphic-design-Large.jpg`} alt=""/>
             </div>
         </div>
-           
         </div>
     )
 }

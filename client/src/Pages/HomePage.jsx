@@ -7,8 +7,10 @@ import Navbar from '../components/Nav/Navbar';
 import DesignImage from '../components/MobileHomePage/DesignImage';
 import DesignImageDesc from '../components/MobileHomePage/DesignImageDesc';
 import HomeDesignImageDesktop from '../components/MobileHomePage/HomeDesignImageDesktop';
-// import '../components/MobileHomePage/DesignImage.css'
-
+ import '../index.css'
+import HomeDesignImageDesktopDescWeb from '../components/MobileHomePage/HomeDesignImageDesktopDescWeb';
+import HomeDesignImgDesktopDescApp from '../components/MobileHomePage/HomeDesignImgDesktopDescApp';
+import HomePageImgDesktopGraphicDesc from '../components/MobileHomePage/HomePageImgDesktopGraphicDesc';
 function MobileHomePage() {
     
     return (
@@ -18,10 +20,13 @@ function MobileHomePage() {
          <DesignImage MobileType='web' TabletType='web' DesktopType='web' />
          <DesignImageDesc  title='Web Design'/>
          <DesignImage MobileType='app' TabletType='app' DesktopType='app'/>
-         <DesignImageDesc  title='App'/>
+         <DesignImageDesc  title='App Design'/>
          <DesignImage  MobileType='graphic' TabletType='graphic' DesktopType='graphic' /> 
          <DesignImageDesc  title='Graphic Design'/> 
          <HomeDesignImageDesktop />
+          {/* <HomeDesignImageDesktopDescWeb title='Web Design'/>
+         <HomeDesignImgDesktopDescApp title='App Design'/>
+         <HomePageImgDesktopGraphicDesc title='Graphic Design'/>    */}
       <MidPage 
      Passionate='./images/illustration-passionate.svg'
     Resourceful='./images/illustration-resourceful.svg'  
@@ -35,3 +40,4 @@ function MobileHomePage() {
 }
 
 export default MobileHomePage
+    

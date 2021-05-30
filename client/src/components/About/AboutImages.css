@@ -12,6 +12,7 @@
     margin-right: auto;
     margin-left: auto;
     margin-top: 2em;
+
     max-width: 100%;
     height: auto;
   }
@@ -27,6 +28,8 @@
     margin-right: auto;
     margin-left: auto;
   }
+
+
 }
 
 @media (min-width: 1025px) {

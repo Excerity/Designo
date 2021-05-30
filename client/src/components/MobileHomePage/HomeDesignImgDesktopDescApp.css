@@ -1,0 +1,320 @@
+
+@media (min-width:320px) {
+    .Desc__Desktop__Container__App {
+        display: none;
+    }
+}
+
+@media (min-width:991px) {
+
+.Desc__Desktop__Container__App {
+    display: block;
+    /* position: absolute; */
+    margin-left: 39em;
+    margin-top: -26em;
+    color: white;
+    position: absolute; 
+   /* transform:translate(-10%, -10%);  */
+}
+
+.View__Projects {
+    font-family: 'Jost', sans-serif;  
+    font-weight: 400;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-left: 2em;
+    }
+.App__Desktop__Desc__HomePage {
+    font-family: 'Jost', sans-serif;  
+    font-weight: 400;
+      font-size: 38px;
+    text-transform: uppercase;
+    
+}
+}
+@media (min-width:1020px) {
+    
+    
+}
+
+@media only screen and (min-width:1020px) {
+    .Desc__Desktop__Container__App {
+        /* margin-top: -27em;
+        margin-left: 41em; */
+        margin-top: -42%;
+        margin-left: 63%;
+    }
+}
+
+@media (min-width:1048px) {
+    .Desc__Desktop__Container__App {
+        /* margin-top: -27.5em;
+        margin-left: 42em; */
+    }
+}
+
+
+
+/* @media (min-width:1080px) {
+    .Desc__Desktop__Container__App {
+         margin-top: -27.5em;
+        margin-left: 43em; 
+    }
+}
+
+
+@media (min-width:1100px) {
+    .Desc__Desktop__Container__App {
+         margin-top: -28.3em;
+        margin-left: 44em; 
+    }
+}
+
+
+@media (min-width:1118px) {
+    .Desc__Desktop__Container__App {
+         margin-top: -29em;
+         margin-left: 45em; 
+    }
+}
+
+@media (min-width:1142px) {
+    .Desc__Desktop__Container__App {
+         margin-top: -29.5em;
+         margin-left: 45.5em; 
+    }
+}
+
+@media (min-width:1151px) {
+    .Desc__Desktop__Container__App {
+         margin-top: -29.5em;
+         margin-left: 46em; 
+    }
+}
+
+@media (min-width:1160px) {
+    .Desc__Desktop__Container__App {
+         margin-top: -30em;
+         margin-left: 46em; 
+    }
+}
+
+@media (min-width:1166px) {
+    .Desc__Desktop__Container__App {
+         margin-top: -30em;
+         margin-left: 47em; 
+    }
+}
+
+@media (min-width:1185px) {
+    .Desc__Desktop__Container__App {
+         margin-top: -30.5em;
+         margin-left: 47em; 
+    }
+}
+
+
+@media (min-width:1191px) {
+    .Desc__Desktop__Container__App {
+         margin-top: -31em;
+         margin-left: 48em; 
+    }
+}
+
+@media (min-width:1201px) {
+    .Desc__Desktop__Container__App {
+         margin-top: -31em;
+         margin-left: 48.5em; 
+    }
+}
+
+@media (min-width:1225px) {
+    .Desc__Desktop__Container__App {
+         margin-top: -31.5em;
+         margin-left: 50em; 
+    }
+}
+
+@media (min-width:1240px) {
+    .Desc__Desktop__Container__App {
+         margin-top: -32em;
+         margin-left: 50.5em; 
+    }
+}
+
+
+@media (min-width:1255px) {
+    .Desc__Desktop__Container__App {
+         margin-top: -32.1em;
+         margin-left: 51em; 
+    }
+}
+
+@media (min-width:1266px) {
+    .Desc__Desktop__Container__App {
+         margin-top: -32.5em;
+         margin-left: 51em; 
+    }
+}
+
+@media (min-width:1289px) {
+    .Desc__Desktop__Container__App {
+         margin-top: -33em;
+         margin-left: 52em; 
+    }
+}
+
+
+@media (min-width:1307px) {
+    .Desc__Desktop__Container__App {
+         margin-top: -33em;
+         margin-left: 53em; 
+    }
+}
+
+
+@media (min-width:1331px) {
+    .Desc__Desktop__Container__App {
+         margin-top: -33em;
+         margin-left: 54em; 
+    }
+}
+
+
+@media (min-width:1351px) {
+    .Desc__Desktop__Container__App {
+         margin-top: -33em;
+         margin-left: 55em; 
+    }
+}
+
+
+@media (min-width:1388px) {
+    .Desc__Desktop__Container__App {
+         margin-top: -33em;
+         margin-left: 56em; 
+    }
+}
+
+
+@media (min-width:1425px) {
+    .Desc__Desktop__Container__App {
+         margin-top: -33em;
+         margin-left: 57em; 
+    }
+}
+
+@media (min-width:1451px) {
+    .Desc__Desktop__Container__App {
+         margin-top: -33em;
+         margin-left: 58em; 
+    }
+}
+
+@media (min-width:1491px) {
+    .Desc__Desktop__Container__App {
+         margin-top: -33em;
+         margin-left: 59em; 
+    }
+}
+
+
+@media (min-width:1520px) {
+    .Desc__Desktop__Container__App {
+         margin-top: -33em;
+         margin-left: 60em; 
+    }
+}
+
+@media (min-width:1560px) {
+    .Desc__Desktop__Container__App {
+         margin-top: -33em;
+         margin-left: 61em; 
+    }
+}
+
+@media (min-width:1600px) {
+    .Desc__Desktop__Container__App {
+         margin-top: -33em;
+         margin-left: 62em; 
+    }
+}
+
+
+@media (min-width:1630px) {
+    .Desc__Desktop__Container__App {
+         margin-top: -33em;
+         margin-left: 63em; 
+    }
+}
+
+@media (min-width:1660px) {
+    .Desc__Desktop__Container__App {
+         margin-top: -33em;
+         margin-left: 64em; 
+    }
+}
+
+@media (min-width:1690px) {
+    .Desc__Desktop__Container__App {
+         margin-top: -33em;
+         margin-left: 65em; 
+    }
+}
+
+@media (min-width:1720px) {
+    .Desc__Desktop__Container__App {
+         margin-top: -33em;
+         margin-left: 65.6em; 
+    }
+}
+
+@media (min-width:1745px) {
+    .Desc__Desktop__Container__App {
+         margin-top: -33em;
+         margin-left: 66em; 
+    }
+}
+
+@media (min-width:1767px) {
+    .Desc__Desktop__Container__App {
+         margin-top: -33em;
+         margin-left: 67em; 
+    }
+}
+
+@media (min-width:1790px) {
+    .Desc__Desktop__Container__App {
+         margin-top: -33em;
+         margin-left: 68em; 
+    }
+}
+@media (min-width:1815px) {
+    .Desc__Desktop__Container__App {
+         margin-top: -33em;
+         margin-left: 69em; 
+    }
+}
+
+
+@media (min-width:1845px) {
+    .Desc__Desktop__Container__App {
+         margin-top: -33em;
+         margin-left: 70em; 
+    }
+}
+
+@media (min-width:1895px) {
+    .Desc__Desktop__Container__App {
+         margin-top: -33em;
+         margin-left: 71em; 
+    }
+}
+
+@media (min-width:1900x) {
+    .Desc__Desktop__Container__App {
+         margin-top: -33em;
+         margin-left: 72em; 
+    }
+} */

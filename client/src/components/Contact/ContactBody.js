@@ -32,9 +32,6 @@ function Body() {
 
             </form>
             </div>
-      
-
-
         </div>
     )
 }

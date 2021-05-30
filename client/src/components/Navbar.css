@@ -30,7 +30,7 @@
 
   .Nav__Links {
     display: block;
-    margin-left: 12em;
+    margin-left: 11em;
     font-family: 'Jost', sans-serif;  
     font-size: 16px;
   }
@@ -51,12 +51,84 @@
 
 @media (min-width: 1025px) {
   .Navbar__Logo {
-    width: 30%;
+    width: 20%;
+  }
+  .Nav__Links {
+    margin-left: 40%;
   }
 }
 
-/* @media (min-width: 1025px)  {
-  .Navbar__Logo {
-    width: 20%;
+
+@media (min-width: 1100px) {
+  .Nav__Links {
+    margin-left: 42%;
   }
-} */
+}
+
+
+@media (min-width: 1100px) {
+  .Nav__Links {
+    margin-left: 42%;
+  }
+}
+
+@media (min-width: 1150px) {
+  .Nav__Links {
+    margin-left: 43%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .Nav__Links {
+    margin-left: 44%;
+  }
+}
+
+@media (min-width: 1250px) {
+  .Nav__Links {
+    margin-left: 45%;
+  }
+}
+
+@media (min-width: 1300px) {
+  .Nav__Links {
+    margin-left: 46%;
+  }
+}
+
+
+@media (min-width: 1350px) {
+  .Nav__Links {
+    margin-left: 47%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .Nav__Links {
+    margin-left: 48%;
+  }
+}
+
+@media (min-width: 1450px) {
+  .Nav__Links {
+    margin-left: 49%;
+  }
+}
+
+@media (min-width: 1500px) {
+  .Nav__Links {
+    margin-left: 50%;
+  }
+}
+
+@media (min-width: 1600px) {
+  .Nav__Links {
+    margin-left: 51%;
+  }
+}
+
+@media (min-width: 1650px) {
+  .Nav__Links {
+    margin-left: 52%;
+  }
+}

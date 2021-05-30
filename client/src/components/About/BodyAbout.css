@@ -3,17 +3,62 @@
     background-color: #e7816b;
     height: 30em;
    text-align: center;
+   color: #ffffff;
+  }
+
+  .body__about__title {
+    margin-left: -15%;
+    font-size: 22px;
+  }
+
+  .Body__Paragraph__About__Tablet {
+    display: none;
+    font-size: 20px;
+  }
+
+  .Body__Paragraph__About__Desktop {
+    display: none;
+  }
+
+  @media (min-width: 700px) {
+
+.Body__About {
+  margin-top: -1.96em;
+}
+
+    .Body__Paragraph__About__Tablet{
+      display: block;
+    }
+    .Body__Paragraph__About__Mobile {
+      display: none;
+    }
+    .Body__Paragraph__About__Desktop {
+      display: none;
+    }
+    .body__about__title {
+      margin-left: 0%;
+    }
   }
 
   @media (min-width:1025px) {
+
+    .Body__Paragraph__About__Tablet{
+      display: none;
+    }
+    .Body__Paragraph__About__Mobile {
+      display: none;
+    }
+
+    .Body__Paragraph__About__Desktop {
+      display: block;
+    }
+
+
     .Body__About {
       margin-left: 8%;
       margin-right: 9%;
       padding-top: 7%;
       }
-
-   
   }
-
 
 

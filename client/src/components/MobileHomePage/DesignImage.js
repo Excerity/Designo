@@ -10,8 +10,6 @@ function DesignImage({ MobileType, TabletType }) {
             <div className='Home__Mobile'>
             <img  className='Home__MobileImg' src={`/images/mobile-${MobileType}-design.jpg`} alt=""/>
             </div> 
-
-
             
         </div>
     )
