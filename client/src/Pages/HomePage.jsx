@@ -18,11 +18,11 @@ function MobileHomePage() {
          <Navbar />
       <HomeBody />
          <DesignImage MobileType='web' TabletType='web' DesktopType='web' />
-         <DesignImageDesc  title='Web Design'/>
+         <DesignImageDesc  title='WebDesign'/>
          <DesignImage MobileType='app' TabletType='app' DesktopType='app'/>
-         <DesignImageDesc  title='App Design'/>
+         <DesignImageDesc  title='AppDesign'/>
          <DesignImage  MobileType='graphic' TabletType='graphic' DesktopType='graphic' /> 
-         <DesignImageDesc  title='Graphic Design'/> 
+         <DesignImageDesc  title='GraphicDesign'/> 
          <HomeDesignImageDesktop />
           {/* <HomeDesignImageDesktopDescWeb title='Web Design'/>
          <HomeDesignImgDesktopDescApp title='App Design'/>

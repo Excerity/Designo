@@ -16,7 +16,7 @@
 
 
 /* tablets */
-@media (min-width: 600px) {
+@media (min-width: 768px) {
 
 .Home__Desktop__Images {
   margin-top: 10em;

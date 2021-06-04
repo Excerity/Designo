@@ -1,134 +1,99 @@
-  .nav {
-    display: flex;
-    margin-top: 3em;
-    margin-left: 1.8em;
-  }
-
-  .Nav__Links {
-    display: none;
-  }
-      
-  .Hamburger {
-    margin-left: 11em;
-  }
-
-  .Navbar__Logo {
-    width: 50%;
-  }
-
-
-@media (min-width: 768px) {
-  .Hamburger {
-    display: none !important;
-  }
-
-  .nav {
-    display: flex;
-    margin-top: 3em;
-    margin-left: 1.8em;
-  }
-
-  .Nav__Links {
-    display: block;
-    margin-left: 11em;
-    font-family: 'Jost', sans-serif;  
-    font-size: 16px;
-  }
-
-   /* Link {
-    float: right;
-  } */
-
-  .link {
-    padding-left: 2em;
-    text-decoration: none;
-  }
-
-  .Navbar__Logo {
-    width: 30%;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@media (min-width: 1025px) {
-  .Navbar__Logo {
-    width: 20%;
-  }
-  .Nav__Links {
-    margin-left: 40%;
-  }
+.navbar {
+display: flex;
+justify-content: space-around;
+align-items: center;
+height: 65px;
+background-color: white;
+padding-top: 3em;
 }
 
 
-@media (min-width: 1100px) {
-  .Nav__Links {
-    margin-left: 42%;
-  }
+.nav-links {
+display: flex;
+/* justify-self: flex-end; */
+list-style-type: none;
+width: 75%;
+}
+
+.Locations,
+.Home,
+.Contact {
+text-decoration: none;
+font-size: 20px;
+padding: 10px 20px;
+margin: 0 10px;
+cursor: pointer; 
+white-space: nowrap;
 }
 
 
-@media (min-width: 1100px) {
-  .Nav__Links {
-    margin-left: 42%;
-  }
+.mobile-menu-icon {
+display: none;
 }
 
-@media (min-width: 1150px) {
-  .Nav__Links {
-    margin-left: 43%;
-  }
+@media screen and (max-width: 768px) {
+
+.navbar {
+  justify-content: space-between;
 }
 
-@media (min-width: 1200px) {
-  .Nav__Links {
-    margin-left: 44%;
-  }
+.Navbar-Logo {
+display: flex;
+width: 20em;
+align-self: flex-start;
+margin-left: 1em;
+/* position: absolute; */
+/* top: 15px;
+left: 35px; */
+/* justify-content: flex-start; */
 }
 
-@media (min-width: 1250px) {
-  .Nav__Links {
-    margin-left: 45%;
-  }
+.Navbar-Logo {
+  width: 15em;
 }
 
-@media (min-width: 1300px) {
-  .Nav__Links {
-    margin-left: 46%;
-  }
+.nav-links {
+display: none;
 }
 
-
-@media (min-width: 1350px) {
-  .Nav__Links {
-    margin-left: 47%;
-  }
+.nav-links-mobile {
+position: absolute;
+display: block;
+list-style-type: none;
+background-color: white;
+left: 0;
+top: 75px;
+transition: all 0.5s ease-out;
+width: 100%;
+z-index: 44;
 }
 
-@media (min-width: 1400px) {
-  .Nav__Links {
-    margin-left: 48%;
-  }
+.Locations,
+.Home,
+.Contact {
+  color: red;
+  text-align: center;
+  padding: 32px;
+  width: 100%;
+  transition: all 0.5s ease;
 }
 
-@media (min-width: 1450px) {
-  .Nav__Links {
-    margin-left: 49%;
-  }
+.mobile-menu-icon {
+  display: flex;
+  font-size: 30px;
+  color: black;
+  background-color: red;
+  border: none;
+  outline: none;
+  font-size: 1.7em;
+  width: 0em;
+  margin-right: 2em;
 }
 
-@media (min-width: 1500px) {
-  .Nav__Links {
-    margin-left: 50%;
-  }
-}
-
-@media (min-width: 1600px) {
-  .Nav__Links {
-    margin-left: 51%;
-  }
-}
-
-@media (min-width: 1650px) {
-  .Nav__Links {
-    margin-left: 52%;
-  }
 }

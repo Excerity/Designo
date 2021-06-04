@@ -35,7 +35,7 @@ function HomeBody() {
 
         <div className="Home__Page__Button__Container">
         <button className='HomePage__Button'>
-        Learn More
+        <p>Learn More</p>
     </button>
         </div>
          

@@ -3,6 +3,7 @@
   text-align: center;
   color: white;
   background-color: white !important;
+  letter-spacing: .1em;
   /* bottom: 3em; */
 }
 
@@ -23,6 +24,17 @@
  .Design__Image__Arrow {
     margin-left: .5em;
  }
+
+ .Design-Image-view-projects {
+   font-size: 15px;
+   text-transform: uppercase;
+   letter-spacing: .2em;
+ }
+
+ .Design-Image-Link {
+  word-spacing: 10px;
+}
+
 
 @media (min-width: 991px) {
   .Design__Image__Desc {
