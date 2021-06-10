@@ -9,11 +9,11 @@ function Contact() {
 
     return (
         <div>
-        <Navbar />
-        <ContactBody />
-      <LandmarkImages  Circle='/images/bg-pattern-small-circle.svg'/>
-      <AboveFooter/>
-      <Footer />
+       <Navbar />
+       <ContactBody />
+       <LandmarkImages  Circle='/images/bg-pattern-small-circle.svg'/>
+       <AboveFooter/>
+       <Footer />
         </div>
     )
 }

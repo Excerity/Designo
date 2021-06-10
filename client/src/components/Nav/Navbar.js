@@ -4,7 +4,7 @@ import "../Navbar.css"
 
 const Navbar = () => {
 
-  const [isMobile, setIsMobile] = useState(true);
+  const [isMobile, setIsMobile] = useState(false);
 
   return (
    <nav className="navbar">
@@ -15,13 +15,13 @@ const Navbar = () => {
   <ul className={isMobile ? "nav-links-mobile" : "nav-links"}
     onClick={() => setIsMobile(false)}
   >
-    <Link to="/" className="Home">
+    <Link to="/About" className="Home">
     <li>Our company</li>
     </Link>
-      <Link to="/" className="Locations">
+      <Link to="/Locations" className="Locations">
     <li>Locations</li>
     </Link>
-      <Link to="/" className="Contact">
+      <Link to="/Contact" className="Contact">
     <li>Contact</li>
     </Link>
   </ul>

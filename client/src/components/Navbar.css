@@ -66,22 +66,22 @@ display: none;
 position: absolute;
 display: block;
 list-style-type: none;
-background-color: white;
+background-color: black;
 left: 0;
-top: 75px;
+top: 7em;
 transition: all 0.5s ease-out;
 width: 100%;
 z-index: 44;
+padding-left: 2em;
 }
 
 .Locations,
 .Home,
 .Contact {
-  color: red;
-  text-align: center;
-  padding: 32px;
-  width: 100%;
+  color: white;
+  text-transform: uppercase;
   transition: all 0.5s ease;
+  font-size: 25px;
 }
 
 .mobile-menu-icon {
