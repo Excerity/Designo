@@ -1,0 +1,132 @@
+
+.AboveFooter {
+  /* margin-bottom: 10em; */
+  position: relative;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: #e7816b;
+  height: 30em;
+  z-index: 3;
+  border-radius: 15px;
+}
+
+.AboveFooter__Paragraph__Desktop {
+ display: none;
+}
+
+.AboveFooter__Header {
+  text-align: center;
+  font-size: 32px;
+  color: #ffffff;
+  font-weight: 500;
+} 
+
+.AboveFooter__Paragraph {
+  text-align: center;
+  color: #ffffff;
+  padding-top: 1em;
+}
+
+/* .AboveFooter__Button {
+  margin-left: 40%;
+  margin-top: 1.8em;
+} */
+
+.Button__Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.Button__Above__Footer {
+  background-color: #ffffff; 
+  color: black;
+  border: #ffffff;
+  width: 13em;
+  height: 4em;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  transition: all .3s ease-in-out;
+
+}
+
+.Button__Above__Footer:focus,
+.Button__Above__Footer:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition-delay: 0s;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  background-color: #ffad9b;
+  color: #ffffff;
+  opacity: 1;
+}
+
+
+  .AboveFooter__Text__Container {
+    padding-top: 4em;
+  }
+
+  @media (min-width: 768px) {
+    .AboveFooter {
+      height: 22em;
+      margin-bottom: 5em;
+    }
+
+    
+  .AboveFooter__Paragraph {
+    display: none;
+  }
+
+  .AboveFooter__Paragraph__Desktop {
+    /* margin-left: 5%; */
+    text-align: center;
+    display: block;
+    color: #ffffff;
+    padding-top: 1.2em;
+    font-size: 1.1em;
+   }
+
+
+   .AboveFooter__Text__Container {
+    padding-top: 1em;
+  }
+  }
+
+
+@media (min-width:1200px) {
+
+/* .AboveFooter {
+  max-width: 75vw;
+  margin: 0 auto;
+  height: 20em;
+} */
+
+.AboveFooter {
+  max-width: 75vw;
+  margin: auto;
+  margin-bottom: 5em;
+}
+
+   /* .AboveFooter__Header {
+     margin-right: 70%;
+    font-size: 2em;
+    color: #ffffff;
+  } */
+  
+  /* #H3__AboveFooter {
+    margin-right: 11%;
+    margin-bottom: .5em;
+  } */
+
+  .Material__UI__Button__Container {
+    display: block;
+    margin-left: 76%;
+    margin-top: -7%;
+  }
+
+}

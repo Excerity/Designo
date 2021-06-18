@@ -14,7 +14,7 @@ function MapImagesDesc({ Country, Office, Address1, Address2, Phone, Mail  }) {
         </div>
 
         <div className='Map_Images_Right'>
-        <h3 className='Contact'>Contact</h3>
+        <h3 className='Contact-Desc'>Contact</h3>
         <p>{Phone}</p>
         <p>{Mail}</p>
         </div>

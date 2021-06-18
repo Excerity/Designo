@@ -1,0 +1,42 @@
+  .Desc {
+      /* display: absolute; */
+  text-align: center;
+  color: white;
+  background-color: white !important;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  font-weight: 500;
+  /* bottom: 3em; */
+}
+
+ h1, h2 {
+  filter: brightness(100%);
+
+ }
+
+ h1 {
+   margin-top: -1.3em;
+ }
+
+ .Design__Image__Desc {
+   position: block;
+   margin-bottom: -5.8em;
+ }
+
+ .Design__Image__Arrow {
+    margin-left: .5em;
+ }
+
+ .Design-Image-view-projects {
+   font-size: 15px;
+   text-transform: uppercase;
+   letter-spacing: .2em;
+ }
+
+
+
+@media (min-width: 991px) {
+  .Design__Image__Desc {
+    display: none;
+  }
+}

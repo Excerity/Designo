@@ -1,19 +1,19 @@
 import React from 'react'
-import AboveFooter from '../components/MobileHomePage/AboveFooter';
-import Footer from '../components/MobileHomePage/Footer';
+import AboveFooter from '../components/Footer/AboveFooter';
+import Footer from '../components/Footer/Footer';
 import Navbar from '../components/Nav/Navbar';
 import MidPageDesign from '../MidPageDesign';
-import MidPageDescWebDesign from '../components/MobileWebDesign/MidPageDescWebDesign';
-import BelowNavDesign from '../components/MobileWebDesign/BelowNavDesign';
+import MidPageDescWebDesign from '../components/WebDesign/MidPageDescWebDesign';
+import BelowNavDesign from '../components/WebDesign/BelowNavDesign';
 import '../DesktopGridLayout.css';
-import DesignImage from '../components/MobileHomePage/DesignImage';
-import DesignImageDesc from '../components/MobileHomePage/DesignImageDesc';
+import DesignImage from '../components/HomePage/DesignImage';
+import DesignImageDesc from '../components/HomePage/DesignImageDesc';
 import DesignImageDesktop from '../DesignImageDesktop';
 import DesignImageDesktopDesc from '../DesignImageDesktopDesc';
 import '../DesignImageDesktop.css'
 
 
-function MobileWebDesign() {
+function WebDesign() {
     return (
         <div>
          <Navbar />
@@ -80,4 +80,4 @@ function MobileWebDesign() {
     )
 }
 
-export default MobileWebDesign
+export default WebDesign

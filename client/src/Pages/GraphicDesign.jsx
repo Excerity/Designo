@@ -1,12 +1,12 @@
 import React from 'react'
-import AboveFooter from '../components/MobileHomePage/AboveFooter';
-import Footer from '../components/MobileHomePage/Footer';
+import AboveFooter from '../components/Footer/AboveFooter';
+import Footer from '../components/Footer/Footer';
 import Navbar from '../components/Nav/Navbar';
 import MidPageDesign from '../MidPageDesign';
 import MidPageDescGraphicDesign from '../components/GraphicDesign/MidPageDescGraphicDesign';
-import BelowNavDesign from '../components/MobileWebDesign/BelowNavDesign';
-import DesignImage from '../components/MobileHomePage/DesignImage';
-import DesignImageDesc from '../components/MobileHomePage/DesignImageDesc';
+import BelowNavDesign from '../components/WebDesign/BelowNavDesign';
+import DesignImage from '../components/HomePage/DesignImage';
+import DesignImageDesc from '../components/HomePage/DesignImageDesc';
 import DesignImageDesktopDesc from '../DesignImageDesktopDesc';
 import DesignImageDesktop from '../DesignImageDesktop';
 

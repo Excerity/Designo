@@ -1,28 +1,28 @@
 import React from 'react'
-import HomeBody from '../components/MobileHomePage/HomeBody';
-import MidPage from '../components/MobileHomePage/MidPage';
-import AboveFooter from '../components/MobileHomePage/AboveFooter';
-import Footer from '../components/MobileHomePage/Footer';
+import HomeBody from '../components/HomePage/HomeBody';
+import MidPage from '../components/HomePage/MidPage';
+import AboveFooter from '../components/Footer/AboveFooter';
+import Footer from '../components/Footer/Footer';
 import Navbar from '../components/Nav/Navbar';
-import DesignImage from '../components/MobileHomePage/DesignImage';
-import DesignImageDesc from '../components/MobileHomePage/DesignImageDesc';
-import HomeDesignImageDesktop from '../components/MobileHomePage/HomeDesignImageDesktop';
+import DesignImage from '../components/HomePage/DesignImage';
+import DesignImageDesc from '../components/HomePage/DesignImageDesc';
+import HomeDesignImageDesktop from '../components/HomePage/HomeDesignImageDesktop';
  import '../index.css'
-import HomeDesignImageDesktopDescWeb from '../components/MobileHomePage/HomeDesignImageDesktopDescWeb';
-import HomeDesignImgDesktopDescApp from '../components/MobileHomePage/HomeDesignImgDesktopDescApp';
-import HomePageImgDesktopGraphicDesc from '../components/MobileHomePage/HomePageImgDesktopGraphicDesc';
-function MobileHomePage() {
+import HomeDesignImageDesktopDescWeb from '../components/HomePage/HomeDesignImageDesktopDescWeb';
+import HomeDesignImgDesktopDescApp from '../components/HomePage/HomeDesignImgDesktopDescApp';
+import HomePageImgDesktopGraphicDesc from '../components/HomePage/HomePageImgDesktopGraphicDesc';
+function HomePage() {
     
     return (
         <div>
          <Navbar />
       <HomeBody />
-         <DesignImage MobileType='web' TabletType='web' DesktopType='web' />
-         <DesignImageDesc  title='WebDesign'/>
-         <DesignImage MobileType='app' TabletType='app' DesktopType='app'/>
-         <DesignImageDesc  title='AppDesign'/>
-         <DesignImage  MobileType='graphic' TabletType='graphic' DesktopType='graphic' /> 
-         <DesignImageDesc  title='GraphicDesign'/> 
+         <DesignImage MobileType='web' TabletType='web' DesktopType='web' OpenTab='WebDesign#top' Background='/images/mobile-${MobileType}-design.jpg' />
+         <DesignImageDesc  title='Web Design' OpenTab='WebDesign#top'/>
+         <DesignImage MobileType='app' TabletType='app' DesktopType='app'  OpenTab='AppDesign#top'/>
+         <DesignImageDesc  title='App Design'  OpenTab='AppDesign#top'/>
+         <DesignImage  MobileType='graphic' TabletType='graphic' DesktopType='graphic'  OpenTab='GraphicDesign#top' /> 
+         <DesignImageDesc  title='Graphic Design'  OpenTab='GraphicDesign#top'/> 
          <HomeDesignImageDesktop />
           {/* <HomeDesignImageDesktopDescWeb title='Web Design'/>
          <HomeDesignImgDesktopDescApp title='App Design'/>
@@ -39,5 +39,5 @@ function MobileHomePage() {
     )
 }
 
-export default MobileHomePage
+export default HomePage
     

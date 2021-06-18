@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import { Link } from "react-router-dom";
-import "../Navbar.css"
+import "./Navbar.css"
 
 const Navbar = () => {
 
@@ -9,8 +9,9 @@ const Navbar = () => {
   return (
    <nav className="navbar">
 
-<img className='Navbar-Logo' src="/images/darkLogo.png" alt=""/>
-
+    <Link to='/'>
+    <img className='Navbar-Logo' src="/images/darkLogo.png" alt=""/>
+    </Link>   
 
   <ul className={isMobile ? "nav-links-mobile" : "nav-links"}
     onClick={() => setIsMobile(false)}

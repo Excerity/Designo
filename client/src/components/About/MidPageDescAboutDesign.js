@@ -9,11 +9,11 @@ function MidPageDescWebDesign({ FirstH3, SecondH3, Title}) {
             <div className='About__Title'>
                <h2>{Title}</h2> 
             </div>
-            <h3 className='About__FirstHeader'>
+            <p className='About__Para'>
             {FirstH3}
          
-            </h3>
-            <h3>{SecondH3}</h3>
+            </p>
+            <p className='About__Para'>{SecondH3}</p>
             </div>
           
         </div>

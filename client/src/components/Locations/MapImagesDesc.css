@@ -1,4 +1,3 @@
-@media (min-width: 320px) {
   .Map__Images {
     background-color: #fdf3f0;
     margin-top: -8.5em;
@@ -20,10 +19,10 @@
     margin-top: 0.5em;
     margin-bottom: 0.5em;
   }
-  .Contact {
-    margin-top: 1.3em;
+  .Contact-Desc {
+    margin-top: 1.4em;
   }
-}
+
 
 @media (min-width: 600px) {
   .Map__Images {
