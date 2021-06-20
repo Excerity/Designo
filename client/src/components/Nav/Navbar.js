@@ -9,9 +9,11 @@ const Navbar = () => {
   return (
    <nav className="navbar">
 
-    <Link to='/'>
-    <img className='Navbar-Logo' src="/images/darkLogo.png" alt=""/>
-    </Link>   
+     <Link to='/'> 
+     <img className='Navbar-Logo' src="/images/darkLogo.png" alt=""/> 
+     </Link>    
+
+
 
   <ul className={isMobile ? "nav-links-mobile" : "nav-links"}
     onClick={() => setIsMobile(false)}

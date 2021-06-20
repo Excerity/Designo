@@ -6,56 +6,84 @@
 
 .navbar {
 display: flex;
-justify-content: space-around;
-align-items: center;
+justify-content: space-between;
 height: 65px;
 background-color: white;
 padding-top: 3em;
 }
 
+.Navbar-Logo {
+  width: 14em;
+  margin-left: 2em;
+}
 
 .nav-links {
 display: flex;
-/* justify-self: flex-end; */
 list-style-type: none;
-width: 75%;
+text-transform: uppercase;
+font-size: 15px;
+color: #333136;
+letter-spacing: 2px;
+font-size: 15px;
+padding-top: .2em;
 }
+
+
+.Locations,
+.Home,
+.Contact {
+    margin-right: 2.5em;
+    position: relative;
+}
+
+.Contact::after,
+.Home::after,
+.Locations::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  left: 0;
+  bottom: -10px;
+  background:#333136;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 250ms ease-in;
+}
+
+.Contact:hover::after,
+.Home:hover::after,
+.Locations:hover::after  {
+  transform: scaleX(1);
+  transform-origin: left;
+} 
+
+.mobile-menu-icon {
+display: none;
+}
+
+@media screen and (max-width: 767px) {
+
+.navbar {
+  justify-content: space-between;
+
+}
+
+.Navbar-Logo {
+display: flex;
+align-self: flex-start;
+margin-left: 1em;
+width: 15em;
+}
+
 
 .Locations,
 .Home,
 .Contact {
 text-decoration: none;
 font-size: 20px;
-padding: 10px 20px;
 margin: 0 10px;
-cursor: pointer; 
 white-space: nowrap;
-}
-
-
-.mobile-menu-icon {
-display: none;
-}
-
-@media screen and (max-width: 768px) {
-
-.navbar {
-  justify-content: space-between;
-}
-
-.Navbar-Logo {
-display: flex;
-width: 20em;
-align-self: flex-start;
-margin-left: 1em;
-/* position: absolute; */
-/* top: 15px;
-left: 35px; */
-/* justify-content: flex-start; */
-}
-
-.Navbar-Logo {
-  width: 15em;
 }
 
 .nav-links {
@@ -96,4 +124,39 @@ padding-left: 2em;
   margin-right: 2em;
 }
 
+}
+    /* desktop */
+/* @media screen and (min-width: 1499px) {
+
+  .navbar {
+     max-width: 75vw;
+  }
+
+} */
+
+@media screen and (min-width: 1201px) {
+
+  /* .navbar {
+     width: 95vw;
+  } */
+
+  .navbar {
+    justify-content: space-around;
+    gap: 370px;
+    padding-top: 3.5em;
+  }
+
+  .Navbar-Logo {
+     margin-left: 0em; 
+  }
+
+  .nav-links {
+    /* margin-right: 5em; */
+  }
+
+  .Contact::after,
+.Home::after,
+.Locations::after {
+  bottom: -16px;
+}
 }

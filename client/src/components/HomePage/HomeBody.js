@@ -1,6 +1,6 @@
 import React from 'react'
 import './HomeBody.css'
-import Button from '@material-ui/core/Button';
+import { HashLink as Link} from 'react-router-hash-link';
 
 
 function HomeBody() {
@@ -34,21 +34,16 @@ function HomeBody() {
         </div>
 
         <div className="HomePage-Button-Container">
-        <button className='HomePage__Button'>
+        <button className='HomePage-Button'>
         <p>Learn More</p>
     </button>
         </div>
          
          
-        <div className="Phone__Image__Container">
         <figure className='Phone'>
         <img className='Home__Phone__Image' src="/images/image-hero-phone.png" alt=""/>
         </figure>
-        </div>
-      
-        {/* <figure className='HomePage__Phone__Desktop'> 
-          <img src="image-hero-phone-Desktop.jpg" alt=""/>
-        </figure> */}
+
         </div> 
 
         </div>

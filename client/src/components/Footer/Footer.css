@@ -146,16 +146,8 @@ fill: rgb(255, 173, 155);
     white-space: nowrap;
   }
 
-  .Footer__Middle__Para__One {
-    /* margin-left: 5%; */
-  }
 
-
-  .Icon-Container {
-    /* max-width: 94vw; */
-  }
   .Icons {
-    /* margin-top: -5em; */
     margin-right: 1em;
     margin-top: 3em;
   }
@@ -208,29 +200,5 @@ fill: rgb(255, 173, 155);
 .Footer-Logo-Container {
   margin-left: 15%;
 }
-
-
-
-  /* .Footer-Logo-Container{
-    margin-left: 13%;
-  } */
-
-  /* .Footer__Bottom__Container  {
-    display: inline-grid;
-    grid-template-columns: 1fr 1fr;
-    margin-top: 2%; 
-    margin-right: 45%;
-  }
-
-  .Footer__Logo {
-    padding-bottom: 3em;
-  }
-
-    
-  .Icons  {
-    margin-left: 77%;
-}
- */
-
 
 }
