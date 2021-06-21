@@ -3,7 +3,6 @@ import HomeBody from '../components/HomePage/HomeBody';
 import MidPage from '../components/HomePage/MidPage';
 import AboveFooter from '../components/Footer/AboveFooter';
 import Footer from '../components/Footer/Footer';
-import Navbar from '../components/Nav/Navbar';
 import DesignImage from '../components/HomePage/DesignImage';
 import DesignImageDesc from '../components/HomePage/DesignImageDesc';
 import HomeDesignImageDesktop from '../components/HomePage/HomeDesignImageDesktop';
@@ -11,11 +10,12 @@ import HomeDesignImageDesktop from '../components/HomePage/HomeDesignImageDeskto
 import HomeDesignImageDesktopDescWeb from '../components/HomePage/HomeDesignImageDesktopDescWeb';
 import HomeDesignImgDesktopDescApp from '../components/HomePage/HomeDesignImgDesktopDescApp';
 import HomePageImgDesktopGraphicDesc from '../components/HomePage/HomePageImgDesktopGraphicDesc';
+import NavMenu from '../components/Nav/NavMenu';
 function HomePage() {
     
     return (
         <div>
-         <Navbar />
+         <NavMenu />
       <HomeBody />
          <DesignImage MobileType='web' TabletType='web' DesktopType='web' OpenTab='WebDesign#top' Background='/images/mobile-${MobileType}-design.jpg' />
          <DesignImageDesc  title='Web Design' OpenTab='WebDesign#top'/>

@@ -1,7 +1,6 @@
 import React from 'react'
 import AboveFooter from '../components/Footer/AboveFooter';
 import Footer from '../components/Footer/Footer';
-import Navbar from '../components/Nav/Navbar';
 import MidPageDescAboutDesign from '../components/About/MidPageDescAboutDesign';
 import AboutUsImage from '../components/About/AboutUsImage';
 import LandmarkImages from '../components/About/LandmarkImages';
@@ -9,13 +8,14 @@ import SmallCircle from '../components/SmallCircle';
 import WorldClassImg from '../components/About/WorldClassImages';
 import RealDeal from '../components/About/RealDealImages';
 import BodyAbout from '../components/About/BodyAbout'
+import NavMenu from '../components/Nav/NavMenu';
 // import '../components/About./BodyAbout.css'
 
 
 function About() {
     return (
         <div>
-      <Navbar />
+      <NavMenu />
       <AboutUsImage />
       <BodyAbout/>
      <WorldClassImg />

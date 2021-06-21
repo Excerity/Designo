@@ -1,7 +1,6 @@
 import React from 'react'
 import AboveFooter from '../components/Footer/AboveFooter';
 import Footer from '../components/Footer/Footer';
-import Navbar from '../components/Nav/Navbar';
 import MidPageDesign from '../MidPageDesign';
 import MidPageDescWebDesign from '../components/WebDesign/MidPageDescWebDesign';
 import BelowNavDesign from '../components/WebDesign/BelowNavDesign';
@@ -11,12 +10,13 @@ import DesignImageDesc from '../components/HomePage/DesignImageDesc';
 import DesignImageDesktop from '../DesignImageDesktop';
 import DesignImageDesktopDesc from '../DesignImageDesktopDesc';
 import '../DesignImageDesktop.css'
+import NavMenu from '../components/Nav/NavMenu';
 
 
 function WebDesign() {
     return (
         <div>
-         <Navbar />
+         <NavMenu />
       <BelowNavDesign title='Web Design' Para1='We build websites that serve as powerful marketing' Para2='tools and bring memorable brand experiences.' />
         <div className="WebDesign__MidPage__Container">
 <div>

@@ -14,12 +14,13 @@ import '../DesktopGridLayout.css'
 import '../DesignImageDesktop.css'
 import DesignImageDesktop from '../DesignImageDesktop';
 import DesignImageDesktopDesc from '../DesignImageDesktopDesc';
+import NavMenu from '../components/Nav/NavMenu';
 
 
 function AppDesign() {
     return (
         <div>
-     <Navbar />
+     <NavMenu />
       <BelowNavDesign title='App Design' Para1='Our mobile designs bring intuitive digital solutions' Para2='to your customers right at their fingertips.' />
         <div className="WebDesign__MidPage__Container">
             <div>

@@ -5,7 +5,7 @@ import { HashLink as Link} from 'react-router-hash-link';
 
 function HomeBody() {
     return (
-        <div className='Body'>
+        <div className='Body' style={{backgroundImage: 'url(./images/bg-pattern-hero-home.svg)'}}>
              <div className="HomePage__Container">
 
             <h2 className='Body__Header'>
@@ -35,7 +35,9 @@ function HomeBody() {
 
         <div className="HomePage-Button-Container">
         <button className='HomePage-Button'>
-        <p>Learn More</p>
+        <Link to='/About'>
+        <p className='HomePage-Button-Text'>Learn More</p>
+        </Link>
     </button>
         </div>
          

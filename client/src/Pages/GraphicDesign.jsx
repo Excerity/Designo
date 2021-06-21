@@ -1,7 +1,6 @@
 import React from 'react'
 import AboveFooter from '../components/Footer/AboveFooter';
 import Footer from '../components/Footer/Footer';
-import Navbar from '../components/Nav/Navbar';
 import MidPageDesign from '../MidPageDesign';
 import MidPageDescGraphicDesign from '../components/GraphicDesign/MidPageDescGraphicDesign';
 import BelowNavDesign from '../components/WebDesign/BelowNavDesign';
@@ -9,12 +8,13 @@ import DesignImage from '../components/HomePage/DesignImage';
 import DesignImageDesc from '../components/HomePage/DesignImageDesc';
 import DesignImageDesktopDesc from '../DesignImageDesktopDesc';
 import DesignImageDesktop from '../DesignImageDesktop';
+import NavMenu from '../components/Nav/NavMenu';
 
 
 function GraphicDesign() {
     return (
         <div>
-          <Navbar />
+          <NavMenu />
       <BelowNavDesign title='Graphic Design' Para1='We deliver eye-catching branding materials that' Para2='are tailored to meet your business objectives.'  />
       <div className="WebDesign__MidPage__Container">
       <div>

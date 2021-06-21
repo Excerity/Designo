@@ -1,9 +1,4 @@
 import './index.css';
-import Navbar from './components/Nav/Navbar'
-import HomeBody from './components/HomePage/HomeBody';
-import MidPage from './components/HomePage/MidPage';
-import AboveFooter from './components/Footer/AboveFooter';
-import Footer from './components/Footer/Footer';
 import {BrowserRouter as Router, Link, Route, Switch} from 'react-router-dom'
 import HomePage from './Pages/HomePage';
 import WebDesign from './Pages/WebDesign';

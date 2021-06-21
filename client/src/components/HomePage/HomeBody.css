@@ -2,6 +2,14 @@
   .Body {
     background-color: #e7816b;  
     margin-bottom: 7em;
+    background-position: left 6.375rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-image: url('./images/bg-pattern-hero-home.svg'); */
+  }
+
+  .Background-Circle {
+    /* color: rgb(231, 129, 106); */
   }
 
   .HomePage__Phone__Desktop {
@@ -65,7 +73,6 @@
   justify-content: center; 
   margin-top: 1.5em;
   z-index: 99;
-  /* margin-bottom: 5em; */
 }
 
 
@@ -92,7 +99,7 @@
 }  
 
 
-  .HomePage-Button > p {
+  .HomePage-Button-Text  {
     text-align: center;
     font-size: 15px;
     text-transform: uppercase;
@@ -130,6 +137,8 @@
     height: 43.5em;
     width: 70rem;
     margin: 5em auto;
+    background-position: 100%;
+    background-size: contain;
   }
 
   .Body__Paragraph__Tablet {
@@ -197,7 +206,6 @@
 @media (min-width: 1500px) {
   .Body{
     width: 75vw;
-
   }
 
 }

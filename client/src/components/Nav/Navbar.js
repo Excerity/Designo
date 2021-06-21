@@ -1,44 +1,27 @@
 import React, {useState} from "react";
 import { Link } from "react-router-dom";
-import "./Navbar.css"
+import './Navbar.css'
 
 const Navbar = () => {
 
-  const [isMobile, setIsMobile] = useState(false);
-
   return (
-   <nav className="navbar">
+   <nav>   
 
-     <Link to='/'> 
-     <img className='Navbar-Logo' src="/images/darkLogo.png" alt=""/> 
-     </Link>    
+  <ul className='Desktop-nav-links'>
 
+    <li className='Home-Mobile-Item'>
+    <Link to="/About" className="Desktop-Home">Our company</Link>
+    </li>
 
+    <li className='Locations-Mobile-Item'>
+      <Link to="/Locations" className='Desktop-Locations' >locations</Link>
+    </li>
 
-  <ul className={isMobile ? "nav-links-mobile" : "nav-links"}
-    onClick={() => setIsMobile(false)}
-  >
-    <Link to="/About" className="Home">
-    <li>Our company</li>
-    </Link>
-      <Link to="/Locations" className="Locations">
-    <li>Locations</li>
-    </Link>
-      <Link to="/Contact" className="Contact">
-    <li>Contact</li>
-    </Link>
-  </ul>
-  
-  <button  className="mobile-menu-icon"
-    onClick={() => setIsMobile(!isMobile)}
-  >
-  {isMobile ? (
-    <i className="fas fa-times"></i>
-  ) : ( <i className="fas fa-bars"></i>
+    <li className='Contact-Mobile-Item'>
+    <Link to="/Contact" className="Desktop-Contact">Contact</Link>
+    </li>
 
-  )}
-  </button>
-  
+    </ul>
   </nav>
   )
 };

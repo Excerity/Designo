@@ -17,7 +17,7 @@ padding-top: 3em;
   margin-left: 2em;
 }
 
-.nav-links {
+ .Desktop-nav-links {
 display: flex;
 list-style-type: none;
 text-transform: uppercase;
@@ -26,34 +26,37 @@ color: #333136;
 letter-spacing: 2px;
 font-size: 15px;
 padding-top: .2em;
+} 
+
+.nav-links {
+  display: none;
 }
 
-
-.Locations,
-.Home,
-.Contact {
+.Desktop-Locations,
+.Desktop-Home,
+.Desktop-Contact {
     margin-right: 2.5em;
     position: relative;
 }
 
-.Contact::after,
-.Home::after,
-.Locations::after {
+.Desktop-Contact::after,
+.Desktop-Home::after,
+.Desktop-Locations::after {
   content: "";
   position: absolute;
   height: 2px;
   width: 100%;
   left: 0;
-  bottom: -10px;
+  bottom: -1px;
   background:#333136;
   transform: scaleX(0);
   transform-origin: right;
   transition: transform 250ms ease-in;
 }
 
-.Contact:hover::after,
-.Home:hover::after,
-.Locations:hover::after  {
+.Desktop-Contact:hover::after,
+.Desktop-Home:hover::after,
+.Desktop-Locations:hover::after  {
   transform: scaleX(1);
   transform-origin: left;
 } 
@@ -62,18 +65,20 @@ padding-top: .2em;
 display: none;
 }
 
+
+/* mobile and tablet */
+
 @media screen and (max-width: 767px) {
 
 .navbar {
-  justify-content: space-between;
-
+  /* display: flex; */
+  display: grid;
+  grid-template-columns: 12fr 1fr;
 }
 
+
 .Navbar-Logo {
-display: flex;
-align-self: flex-start;
-margin-left: 1em;
-width: 15em;
+  margin-left: 1em;
 }
 
 
@@ -82,13 +87,37 @@ width: 15em;
 .Contact {
 text-decoration: none;
 font-size: 20px;
-margin: 0 10px;
 white-space: nowrap;
+color: white;
+text-transform: uppercase;
+transition: all 0.5s ease-in-out;
+font-size: 25px;
 }
 
-.nav-links {
-display: none;
+.Contact::after,
+.Home::after,
+.Locations::after {
+  background: white;
+
 }
+
+.Home-Mobile-Item  {
+  padding-top: 3em;
+  padding-bottom: 1.5em;
+}
+
+.Locations-Mobile-Item
+ {
+  padding-bottom: 1.5em;
+}
+.Contact-Mobile-Item {
+  padding-bottom: 2.5em;
+
+}
+ 
+.Desktop-nav-links {
+display: none;
+} 
 
 .nav-links-mobile {
 position: absolute;
@@ -103,60 +132,36 @@ z-index: 44;
 padding-left: 2em;
 }
 
-.Locations,
-.Home,
-.Contact {
-  color: white;
-  text-transform: uppercase;
-  transition: all 0.5s ease;
-  font-size: 25px;
-}
 
 .mobile-menu-icon {
-  display: flex;
+  display: grid;
   font-size: 30px;
   color: black;
   background-color: red;
   border: none;
   outline: none;
   font-size: 1.7em;
-  width: 0em;
-  margin-right: 2em;
+  width: 0;
 }
 
+  .mobile-menu-icon:hover {
+    cursor: pointer;
 }
+}
+
     /* desktop */
-/* @media screen and (min-width: 1499px) {
+@media screen and (min-width: 1200px) {
 
   .navbar {
-     max-width: 75vw;
-  }
-
-} */
-
-@media screen and (min-width: 1201px) {
-
-  /* .navbar {
-     width: 95vw;
-  } */
-
-  .navbar {
-    justify-content: space-around;
-    gap: 370px;
+     justify-content: space-evenly; 
     padding-top: 3.5em;
+    gap: 450px;
   }
 
   .Navbar-Logo {
-     margin-left: 0em; 
+     margin-left: 0em;
   }
 
-  .nav-links {
-    /* margin-right: 5em; */
-  }
 
-  .Contact::after,
-.Home::after,
-.Locations::after {
-  bottom: -16px;
-}
+
 }

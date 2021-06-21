@@ -1,6 +1,5 @@
 
 .AboveFooter {
-  /* margin-bottom: 10em; */
   position: relative;
   margin-left: 5%;
   margin-right: 5%;
@@ -27,10 +26,6 @@
   padding-top: 1em;
 }
 
-/* .AboveFooter__Button {
-  margin-left: 40%;
-  margin-top: 1.8em;
-} */
 
 .Button__Container {
   display: flex;
@@ -100,28 +95,12 @@
 
 @media (min-width:1200px) {
 
-/* .AboveFooter {
-  max-width: 75vw;
-  margin: 0 auto;
-  height: 20em;
-} */
 
 .AboveFooter {
   max-width: 75vw;
   margin: auto;
   margin-bottom: 5em;
 }
-
-   /* .AboveFooter__Header {
-     margin-right: 70%;
-    font-size: 2em;
-    color: #ffffff;
-  } */
-  
-  /* #H3__AboveFooter {
-    margin-right: 11%;
-    margin-bottom: .5em;
-  } */
 
   .Material__UI__Button__Container {
     display: block;
