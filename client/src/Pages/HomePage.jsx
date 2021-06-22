@@ -23,13 +23,13 @@ function HomePage() {
          <DesignImageDesc  title='App Design'  OpenTab='AppDesign#top'/>
          <DesignImage  MobileType='graphic' TabletType='graphic' DesktopType='graphic'  OpenTab='GraphicDesign#top' /> 
          <DesignImageDesc  title='Graphic Design'  OpenTab='GraphicDesign#top'/> 
-         <HomeDesignImageDesktop />
-          {/* <HomeDesignImageDesktopDescWeb title='Web Design'/>
+         <HomeDesignImageDesktop className='Desktop-Home-Design-Images' />
+         {/* <HomeDesignImageDesktopDescWeb title='Web Design'/>
          <HomeDesignImgDesktopDescApp title='App Design'/>
-         <HomePageImgDesktopGraphicDesc title='Graphic Design'/>    */}
+         <HomePageImgDesktopGraphicDesc title='Graphic Design'/>     */}
       <MidPage 
      Passionate='./images/illustration-passionate.svg'
-    Resourceful='./images/illustration-resourceful.svg'  
+     Resourceful='./images/illustration-resourceful.svg'  
      Friendly='./images/illustration-friendly.svg'  
      Circle='/images/bg-pattern-small-circle.svg'
      />

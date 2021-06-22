@@ -5,6 +5,9 @@ import { HashLink as Link } from 'react-router-hash-link';
 
 function DesignImage({ MobileType, TabletType, OpenTab, Background }) {
 
+     function ImageLink (OpenTab) {
+        return <Link to={OpenTab}></Link>;
+    }
     
  const HomeImage = {
       backgroundImage: `url(${Background})`  
@@ -15,21 +18,24 @@ function DesignImage({ MobileType, TabletType, OpenTab, Background }) {
         <div>
             
             <div className='Home__Tablet'>
-            <Link to='/'>
+            {/* <Link to='/'> */}
             <img className='Home__TabletImg' src={`/images/tablet-${TabletType}-design.jpg`} alt=""/>
-            </Link>
+            {/* </Link> */}
             </div>
           
             <div className='Home__Mobile'>
-            <Link to={OpenTab}>
-            <div className='Overlay' >
+            {/* <Link to={OpenTab}> */}
+            {/* <div className='Overlay' > */}
+        
+            <img  className='Home__MobileImg' src={`/images/mobile-${MobileType}-design.jpg`} onClick={OpenTab}  alt=""/>
             
-            <img  className='Home__MobileImg' src={`/images/mobile-${MobileType}-design.jpg`} alt=""/>
-            </div>
-            </Link>
 
-             </div>      
-        </div>
+            {/* </Link> */}
+
+             {/* </div> */}
+
+                </div>
+         </div>
     )
 }
 

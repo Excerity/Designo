@@ -11,9 +11,9 @@
   }
 
   .HomeCircle {
-    margin-left: 30%;
-    /* margin-left: 3em;
-    margin-right: 5%; */
+    display: block;
+    width: 30%;
+    margin: auto;
   }
 
   .MidPage__Paragraph {
@@ -25,29 +25,40 @@
     display: none;
   }
 
+  .MidPage__Paragraph-Desktop {
+    display: none;
+  }
+
   .MidPage__Picture__Title {
-    margin-bottom: 2em;
-    margin-top: 2em;
+    margin-bottom: .7em;
+    margin-top: .7em;
     font-weight: 500;
     letter-spacing: 5px;
   }
 
 
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   .MidPage__Container {
     margin-bottom: 5em;
   }
 
   .HomeCircle {
     position: relative;
-    right: 50%;
+    /* right: 70%; */
+    margin-right: 60%;
+    top: 2em;
+    
+  }
+
+  .hid {
+     padding-top: 2em;
   }
 
   .MidPage__Picture {
     position: relative;
-    right: 35%;
-
+    right: 30%;
+    top: 2em;
   }
 
   .MidPage__Paragraph {
@@ -61,11 +72,14 @@
   }
 }
 
-@media (min-width: 1281px) {
-   /* .MidPage {
+@media (min-width: 1200px) {
+    .MidPage {
      display: flex;
      justify-content: space-evenly;
      flex-wrap: nowrap;
+     max-width: 95vw;
+     margin-top: 10em;
+     margin: 5em auto;
    }
 
   .MidPage__Paragraph {
@@ -73,26 +87,41 @@
    }
 
    .MidPage__Paragraph22 {
-    margin-top: 5em;
-    white-space: nowrap;
+    display: none;
+  
+  }
+
+  .MidPage__Paragraph-Desktop {
+    display: block;
+    line-height: 26px;
     position: relative;
-    right: 20%;
+    /* left: 7%; */
+  }
+
+  .MidPage__Paragraph-Desktop > p {
+    text-align: center;
   }
 
   .MidPage__Picture {
     position: relative;
-    left: 10%;
+    right: 8%;
   }
 
   .HomeCircle {
     position: relative;
-    right: 3%;
+    /* left: 10%; */
   }
 
   .MidPage__Picture__Title {
     position: relative;
-   left: 50%;
-  } */
+    left: 20%;
+    margin-top: 2em;
+  } 
+
+  .Friendly-Desktop-Title {
+      left: 28%;
+  }
+
 
 
 }
