@@ -1,7 +1,11 @@
 import React from 'react'
 import './HomeMidPage.css'
+import Passionate from '../../images/illustration-passionate.svg'
+import Resourceful from'../../images/illustration-resourceful.svg'  
+import Friendly from'../../images/illustration-friendly.svg'  
+import Circle from '../../images/bg-pattern-small-circle.svg'
 
-function MidPage({ Passionate, Friendly, Resourceful, Circle }) {
+function MidPage() {
     return (
         <div className='MidPage'>
 
@@ -14,7 +18,7 @@ function MidPage({ Passionate, Friendly, Resourceful, Circle }) {
 
 <img className='MidPage__Picture' src={Passionate} alt=""/>
         <div className='MidPage__Paragraph'>
-        <h2 className='MidPage__Picture__Title' >Passionate</h2>
+        <h2 className='MidPage__Picture__Title'>Passionate</h2>
         <p>
             Each project starts with an in-depth brand <br/>
           research to ensure we only create products that <br/>
@@ -22,13 +26,12 @@ function MidPage({ Passionate, Friendly, Resourceful, Circle }) {
           technology into exciting new solutions.</p>
         </div>
         <div className='MidPage__Paragraph22'>
-        <h2 className='MidPage__Picture__Title'  >Passionate</h2>
+        <h2 className='MidPage__Picture__Title'>Passionate</h2>
         <p>
             Each project starts with an in-depth brand research to ensure we <br/>
         only create products that serve a purpose. We merge art, <br/>
         design, and technology into exciting new solutions.</p>
         </div>
-
 
 
          <div className='MidPage__Paragraph-Desktop'>
@@ -53,9 +56,9 @@ function MidPage({ Passionate, Friendly, Resourceful, Circle }) {
 <img className='MidPage__Picture' src={Resourceful} alt=""/>
 
             <div className='MidPage__Paragraph'>
-            <h2 className='MidPage__Picture__Title' >Resourceful</h2>
-              <p>
-                  Everything that we do has a strategic purpose. <br/>
+            <h2 className='MidPage__Picture__Title'>Resourceful</h2>
+
+             <p>Everything that we do has a strategic purpose. <br/>
               We use an agile approach in all of our projects <br/>
               and value customer collaboration. It guarantees <br/>
               superior results that fulfill our clients needs.
@@ -85,15 +88,13 @@ function MidPage({ Passionate, Friendly, Resourceful, Circle }) {
 
         </div>
 
-
-
-<div className='MidPage__Container'>
-    
-<div className="HomeCircle">
-    <img src={Circle} alt=""/>
-    </div>
-
-<img className='MidPage__Picture' src={Friendly} alt=""/>
+          <div className='MidPage__Container'>
+              
+          <div className="HomeCircle">
+              <img src={Circle} alt=""/>
+              </div>
+          
+          <img className='MidPage__Picture' src={Friendly} alt=""/>
 
             <div className='MidPage__Paragraph'>
             <h2 className='MidPage__Picture__Title'>Friendly</h2>

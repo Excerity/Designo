@@ -14,7 +14,7 @@ const Navbar = () => {
     </li>
 
     <li className='Locations-Mobile-Item'>
-      <Link to="/Locations" className='Desktop-Locations' >locations</Link>
+      <Link to="/Locations" className='Desktop-Locations'>locations</Link>
     </li>
 
     <li className='Contact-Mobile-Item'>

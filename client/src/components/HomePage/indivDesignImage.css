@@ -1,0 +1,133 @@
+
+
+#Web {
+  background-image: url('../../images/mobile-web-design.jpg'); 
+
+}
+
+#App {
+  background-image: url('../../images/mobile-app-design.jpg');
+}
+
+#Graphic {
+  background-image: url('../../images/mobile-graphic-design.jpg');
+}
+
+#Web, 
+#App,
+#Graphic {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  border-radius: 15px;
+}
+
+.Desktop-image-desc-container {
+  display: flex;
+  padding: 6.6rem 2.25rem;
+  background: rgba(0,0,0,.5); 
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: all .3s ease-in-out;
+  border-radius: 15px;
+  color: white;
+
+}
+
+
+.Desktop-design-title,
+.Desktop-design-h3  {
+  /* display: none;    */
+}
+
+.Desktop-design-title {
+  margin-top: -0.01px;
+  text-transform: uppercase;
+  letter-spacing: 2px; 
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.Desktop-design-h3 {
+  letter-spacing: 5px; 
+  font-weight: 500;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.Desktop-image-desc-container:hover {
+  background: rgba(231, 129, 107, 0.7);
+}
+
+
+
+@media screen and (min-width: 768px) {
+
+  #Web {
+    background-image: url('../../images/tablet-web-design.jpg'); 
+  }
+
+  #App {
+  background-image: url('../../images/tablet-app-design.jpg');
+  }
+
+  #Graphic {
+  background-image: url('../../images/tablet-graphic-design.jpg');
+  }
+}
+
+
+@media (min-width:1200px) {
+
+  /* .Home__Desktop__Images {
+    grid-template-columns: repeat(2,1fr) ;
+    grid-template-areas: "app graphic";
+    margin-left: 3.3%;
+    margin-right: 3.3%; 
+} */
+
+
+#Web {
+  /* grid-row: 1/3; */
+  grid-area: web;
+  background-image: url('../../images/desktop-website-home-design-large.jpg'); 
+
+}
+
+#App {
+  grid-area: app;
+  background-image: url('../../images/desktop-app-design.jpg');
+
+}
+
+
+#Graphic {
+  grid-area: graphic;
+  background-image: url('../../images/desktop-graphic-design-Large.jpg');
+}
+
+
+
+.Desktop-design-title {
+  /* margin-top: -40.01px; */
+}
+
+
+
+  @media (min-width:1220px) {
+    .Design_Project_Images {
+      /* width: 70rem; */
+      margin: 0 auto;
+    }
+
+
+    .Home__Design__Image__Desktop__Container{
+      margin-top: 10%;
+    }
+
+  }
+}
+  

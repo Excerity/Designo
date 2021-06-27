@@ -1,8 +1,9 @@
 import React from 'react'
 import { Fragment } from 'react'
   import { HashLink as Link} from 'react-router-hash-link';
-// import {Link} from 'react-router-dom'
 import './LandmarkImages.css'
+import Canada from '../../images/illustration-canada.svg'
+import Australia from '../../images/illustration-australia.svg'
 
 function LocationImages({ Circle }) {
     return (
@@ -14,7 +15,7 @@ function LocationImages({ Circle }) {
         
         </div>
         
-        <img className='MidPage__Picture Canada__Image' src='/images/illustration-canada.svg' alt=""/>
+        <img className='MidPage__Picture Canada__Image' src={Canada} alt=""/>
                 <div className='Landmark__Country'>
                 <h2>Canada</h2>
                 <Link to='Locations#MapImageCanada'>
@@ -33,7 +34,7 @@ function LocationImages({ Circle }) {
             <img className='LandMark__Small__Circle' src={Circle}alt=""/>
         
         </div>
-        <img className='MidPage__Picture Australia__Image' src='/images/illustration-australia.svg' alt=""/>
+        <img className='MidPage__Picture Australia__Image' src={Australia} alt=""/>
         
         <div className='Landmark__Country'>
         <h2>Australia</h2>

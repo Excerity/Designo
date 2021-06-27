@@ -4,6 +4,7 @@ import { motion } from 'framer-motion'
 import { navVariants, navItemVariants } from './animations'
 import './Navbar.css'
 import Navbar from "./Navbar";
+import darkLogo from '../../images/darkLogo.png';
 
 const NavMenu = () => {
 
@@ -16,7 +17,7 @@ const NavMenu = () => {
     <div>
      <Link to='/'> 
 
-    <img className='Navbar-Logo' src="/images/darkLogo.png" alt=""/> 
+    <img className='Navbar-Logo' src={darkLogo} alt=""/> 
          </Link>    
 
     </div>

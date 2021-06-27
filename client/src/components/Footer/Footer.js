@@ -1,6 +1,7 @@
 import React from 'react'
 import './Footer.css'
 import { HashLink as Link} from 'react-router-hash-link';
+import darkLogo from '../../images/logo-light.png';
 
 function Footer() {
     return (
@@ -9,7 +10,7 @@ function Footer() {
 
             <div className='Footer-Logo-Container'>
             <Link to='/#top'>
-            <img className='Footer__Logo' src="/images/logo-light.png" alt=""/>
+            <img className='Footer__Logo' src={darkLogo} alt=""/>
             </Link>
             </div>
         

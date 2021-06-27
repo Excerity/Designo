@@ -7,6 +7,9 @@
   height: 30em;
   z-index: 3;
   border-radius: 15px;
+  background-image: url('../../images/bg-pattern-small-circle.svg');
+  background-size: 280px;
+  background-position: 350% 300%;
 }
 
 .AboveFooter__Paragraph__Desktop {
@@ -26,11 +29,10 @@
   padding-top: 1em;
 }
 
-
 .Button__Container {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; 
   padding-top: 2em;
 }
 
@@ -46,7 +48,6 @@
   text-transform: uppercase;
   letter-spacing: .04em;
   transition: all .3s ease-in-out;
-
 }
 
 .Button__Above__Footer:focus,
@@ -63,6 +64,8 @@
 
 
   .AboveFooter__Text__Container {
+    display: flex;
+    flex-direction: column;
     padding-top: 4em;
   }
 
@@ -72,20 +75,24 @@
       margin-bottom: 5em;
     }
 
+    .Button__Above__Footer {
+      margin-top: -.7em;
+    }
+
+    .AboveFooter__Header {
+      margin-top: .5em;
+    }
     
   .AboveFooter__Paragraph {
     display: none;
   }
 
   .AboveFooter__Paragraph__Desktop {
-    /* margin-left: 5%; */
     text-align: center;
     display: block;
     color: #ffffff;
-    padding-top: 1.2em;
     font-size: 1.1em;
    }
-
 
    .AboveFooter__Text__Container {
     padding-top: 1em;
@@ -95,17 +102,30 @@
 
 @media (min-width:1200px) {
 
-
 .AboveFooter {
-  max-width: 75vw;
+  max-width: 70rem;
   margin: auto;
   margin-bottom: 5em;
 }
 
-  .Material__UI__Button__Container {
-    display: block;
-    margin-left: 76%;
-    margin-top: -7%;
+  .AboveFooter__Paragraph__Desktop,
+  .AboveFooter__Header  {
+      text-align: left;
+      padding-left: 12%;
+  }
+
+  /* .AboveFooter__Text__Container{
+      margin-top: 20em;
+  } */
+
+  .AboveFooter__Header  {
+    margin-top: 2em;
+  }
+  .Button__Container {
+    display: flex;
+    padding-top: 2em;
+    margin-left: 70%;
+    margin-top: -10em;
   }
 
 }

@@ -1,16 +1,17 @@
 import React from 'react'
 import './HomeBody.css'
 import { HashLink as Link} from 'react-router-hash-link';
-
+import HomePhoneCircle from '../../images/bg-pattern-hero-home.svg'
+import HomePhone from "../../images/image-hero-phone.png"
 
 function HomeBody() {
     return (
-        <div className='Body' style={{backgroundImage: 'url(./images/bg-pattern-hero-home.svg)'}}>
+        <div className='Body' style={{backgroundImage: `url(${HomePhoneCircle})`}}>
              <div className="HomePage__Container">
-
+                 
             <h2 className='Body__Header'>
             <p className='First__Line__Header__HomeBody'>Award-winning custom </p> 
-            <p className='Second__Line__Header__HomeBody' >designs and digital </p> 
+            <p className='Second__Line__Header__HomeBody'>designs and digital </p> 
             <p className='Third__Line__Header__HomeBody'>branding solutions</p>
             </h2>
 
@@ -43,7 +44,7 @@ function HomeBody() {
          
          
         <figure className='Phone'>
-        <img className='Home__Phone__Image' src="/images/image-hero-phone.png" alt=""/>
+        <img className='Home__Phone__Image' src={HomePhone} alt=""/>
         </figure>
 
         </div> 

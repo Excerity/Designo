@@ -1,4 +1,54 @@
-@media (min-width:1281px) {
+
+.Design-Projects-Container {
+  display: grid;
+  margin: 8em 3em;
+  grid-template-columns: 1fr;
+  gap: 2.5rem;
+}
+
+.Indiv-Container {
+  padding-top: 3rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-right: 5%;
+  margin-left: 5%; 
+  gap: 1.5rem;
+  margin-bottom: 7em;
+
+    /* margin-left: 3.3%;
+    margin-right: 3.3%;  */
+}
+
+
+@media (min-width: 1200px) {
+  .Design-Projects-Container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.875rem;
+    width: 70rem;
+    margin: 8em auto;
+  }
+
+  .Indiv-Container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr) ;
+    grid-template-areas: "app graphic";
+    width: 70rem;
+    margin: auto;
+    margin-bottom: 7em;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+/* @media (min-width:1281px) {
 
     .WebDesign__MidPage__Container {
         display: grid;
@@ -28,4 +78,5 @@
       }
 
    
-}
+} */
+

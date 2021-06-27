@@ -1,0 +1,43 @@
+  .Body_Below__Nav {
+    background-color: #e7816b;
+    height: 20em;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('../../images/bg-pattern-small-circle.svg');
+    background-position: right top;
+    background-size: 70%;
+    background-repeat: no-repeat; 
+    text-align: center;
+    color: white;
+    border-radius: 15px;
+
+  }
+
+  .Body__Header {
+    padding-bottom: 1.3rem;
+    padding-top: 2.5em;
+    font-size: 2rem;
+  }
+  
+
+@media (min-width: 768px) {
+  .Body_Below__Nav {
+    height: 15em;
+    background-image: url('../../images/bg-pattern-hero-home.svg');
+    background-size: 30%;
+    background-position: 90px 50%;
+    background-repeat: repeat; 
+  }
+
+  .Body__Header {
+    padding-top: 1em;
+    font-size: 3rem;
+
+  }
+  }
+
+@media (min-width: 1200px) {
+  .Body_Below__Nav {
+    width: 70rem;
+  }
+}
