@@ -1,60 +1,30 @@
 
+  .Landmark-Grid {
+    margin-top: 7.5em;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 3rem;
+    gap: 3rem; 
+  }
 
-.MidPage__Landmark {
-  margin-top: 14em;
-}
   
-  .MidPage__Picture {
-    /* display: absolute; */
-    /* margin-top: -20em;
-  margin-left: 9.5em; */
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
+.Location__Landmark {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   position: relative;    
+}
 
-  /* .MidPage {
-    margin-top: 5em;
-    margin-bottom: 10em;
-  } */
-
-  .Canada__Image {
-    padding-top: -3em;
-    padding-bottom: 2em;
-  }
-
-  .UK__Image {
-    padding-left: .1em;
-    padding-top: -3em;
-    padding-bottom: 2em;
-  }
-
-  #UK_Text {
-    margin-left: .5em;
-  }
-
-  .Australia__Image {
-    padding-top: -2em;
-    padding-right: .3em;
-    padding-bottom: 3em;
-  }
-
-  .Canada__Container {
-    margin-bottom: 3em;
-  }
-
-  .Australia__Container {
-    margin-bottom: 3em;
-  }
-
-  .UK__Container {
-    margin-bottom: 3em;
-  }
 
   .Landmark__Country {
     text-align: center;
-    font-size: 17px;
+    font-size: 15px;
     letter-spacing: 5px;
+    margin-top: 2em;
+    text-transform: uppercase;
+    font-weight: 500;
+    white-space: nowrap;
   }
 
   .Landmark__Country h2 {
@@ -73,6 +43,7 @@
     color: white;
     text-transform: uppercase;
     transition: all .3s ease-in-out;
+    margin-bottom: 5em;
   }
 
   .Landmark-Button p {
@@ -95,85 +66,36 @@
   } 
 
 
-  /* .circle {
-    margin-left: 30%;
-  } */
-
   .LandMark__Small__Circle{
-
-    margin-left: 30%;
-    /* margin-right: auto; */
+    position: absolute;
   }
 
-@media (min-width: 600px) {
-
-  .LandMark__Small__Circle{
-
-  margin-left: 41%;
-  /* margin-right: auto; */
-}
-
-  .Canada__Image {
-    top: -2.5em;
-    margin-left: 73%;
-    bottom: 5em;
+  .Uk-small-circle {
+    margin-left: 1.2em;
   }
 
   .UK__Image {
-    top: -3em;
-    margin-left: 75%;
-    padding-bottom: 2em;
-  }
+    margin-left: 1.2em;
+  } 
 
-  .Australia__Image {
-    top: -3em;
-    margin-left: 76%;;
-    padding-bottom: 1em;
-  }
+  .uk-landmark-button {
+    margin-left: 2em;
+  } 
 
-  .Landmark__Country {
-    position: relative;
-    top: -3em;
-    text-align: center;
-    left: 1em;
-  }
+
+@media (min-width: 1200px) {
+
+ .Landmark-Grid {
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 1.875rem;
+  gap: 1.875rem 
+ }
+
+ .Location__Landmark {
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 9em;
+  max-width: 75rem;
+  margin: auto;
 }
-
-@media (min-width:1025px) {
-  /* .Canada__Container,
-  .Australia__Container,
-  .UK__Container
-  {
-    display: flex;
-  } */
-
-  .LandMark__Small__Circle{
-    
-      margin-left: 15%;
-      /* margin-right: auto; */
-    }
-
-  .MidPage__Landmark {
-    margin-top: 8em;
-    display: flex;
-    justify-content: space-evenly;
-  }
-
-  .UK__Image {
-    margin-left: 46%;
-  }
-
-  .Australia__Image {
-    margin-left: 50%;
-  }
-
-  .Canada__Image {
-    margin-left: 40%;
-  }
-
-}
-
-@media (min-width:1200px) {
-
-
-}
+}   

@@ -1,14 +1,16 @@
 
   .Body__About {
     background-color: #e7816b;
-    height: 30em;
+  height: 30em;
    text-align: center;
    color: #ffffff;
   }
 
-  .body__about__title {
-    padding-top: 4em;
-    font-size: 22px;
+  .body__about__title > h2 {
+    font-weight: 500;
+    font-size: 32px;
+    padding-top: 5rem;
+    letter-spacing: 2px;
     padding-bottom: 1em;
   }
 
@@ -26,14 +28,17 @@
     display: none;
   }
 
-  @media (min-width: 700px) {
+  @media (min-width: 768px) {
 
 .Body__About {
-  margin-top: -1.96em;
+  margin: auto 4.3%;
+  border-radius: 0px 0px 15px 15px;
+  height: 24em;
 }
 
     .Body__Paragraph__About__Tablet{
       display: block;
+      font-size: 16px;
     }
     .Body__Paragraph__About__Mobile {
       display: none;

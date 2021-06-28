@@ -3,44 +3,54 @@
   background-color: #e7816b;
   text-align: center;
   color: #ffffff;
-  margin-bottom: 3em;
+  margin-bottom: 10em;
   margin-top: 3em;
-  height: 50em;
-  padding-top: 7em;
+  height: 46em;
+  padding-top: 4em; 
 }
 
-.Contact-Container {
-  /* padding-top: 8em; */
+.Contact-Body-Container {
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
- .Contact-Desktop-Para {
+ .Contact-Desktop-Para,
+ .Contact-Tablet-Para
+ {
   display: none;
+}
+
+.Contact-Title {
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 25px;
+  padding-bottom: 1em;
 }
 
 
 .Form {
-  display: inline-block;
+  display: flex;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  flex-direction: column;
+
 }
 
-.Form > TextField {
+.contact-textfield {
   color: #ffffff;
 }
+
 
 .Contact-Button > button {
   width: 12em;
   height: 4em;
   margin-top: 3em;
   background-color: white;
+  border-radius: 10px;
 }
-/* .Button {
-  width: 2em;
-} */
 
 .Contact-para {
-  margin: 20px ;
   line-height: 25px;
 }
 
@@ -48,16 +58,13 @@
   width: 100%;
 }
 
-/* input {
-  width: 90vw;
-} */
-
 @media (min-width: 768px) {
-  .Contact__Body {
-    width: 90%;
+  .Contact__Body{
+    width: 90%; 
     margin-right: auto;
-    margin-left: auto;
+    margin-left: auto; 
     border-radius: 15px;
+    margin-top: 5emgit;
   }
 
   .Contact-Title {
@@ -71,17 +78,60 @@
     display: none;
   }
 
-  .Contact-Desktop-Para {
-    display: block;
+  .Contact-Tablet-Para
+  {
+    display: flex;
     text-align: left;
     margin-left: 10%;
     margin-bottom: 2em;
+
   }
 
   .Contact-Button > button{
-    /* text-align: right; */
-    margin-left: 40%;
+    margin-top: 4em;
+    margin-left: 60%;
   }
 
+
+}
+
+@media (min-width: 1200px) {
+
+  .Contact-Tablet-Para {
+    display: none;
+  }
+
+ 
+  .Contact-Desktop-Para
+  {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 10%;
+  }
+   .Contact__Body {
+     height: 30em;
+     max-width: 70rem;
+   }
+  .Contact-Body-Container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+   .Contact-Desktop-Para {
+      margin-top: -13em;
+      height: 100%;
+      order: 1;
+      padding-right: 1px;
+      line-height: 26px;
+  } 
+
+  .Contact-Title {
+    padding-top: 1.5em;
+    font-size: 3rem
+  }
+
+  .Contact-Button > button{
+    margin-top: 3em;
+  }
 
 }

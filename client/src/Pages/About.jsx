@@ -8,6 +8,7 @@ import WorldClassImg from '../components/About/WorldClassImages';
 import RealDeal from '../components/About/RealDealImages';
 import BodyAbout from '../components/About/BodyAbout'
 import NavMenu from '../components/Nav/NavMenu';
+import '../components/About/LandmarkImages.css'
 
 
 function About() {
@@ -23,7 +24,7 @@ function About() {
   are just as important. We give great importance to craftsmanship, service, and prompt delivery. 
   Clients have always been impressed with our high-quality outcomes that encapsulates their 
   brand’s story and mission.'/>
-    <LandmarkImages  className='LandMark__Desktop__Images'  Circle='/images/bg-pattern-small-circle.svg'/>
+    {/* <LandmarkImages/> */}
     <RealDeal />
     <MidPageDescAboutDesign Title='The real deal' FirstH3='As strategic partners in our clients’ businesses, we are ready to take on any challenge as our own.
   Solving real problems require empathy and collaboration, and we strive to bring a fresh perspective to every

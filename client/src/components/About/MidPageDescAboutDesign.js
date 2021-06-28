@@ -1,5 +1,4 @@
 import React from 'react'
-import { Fragment } from 'react'
 import './AboutPageDescWebDesign.css'
 
 function MidPageDescWebDesign({ FirstH3, SecondH3, Title}) {

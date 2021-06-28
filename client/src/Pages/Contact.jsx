@@ -4,6 +4,7 @@ import LandmarkImages from '../components/About/LandmarkImages'
 import ContactBody from '../components/Contact/ContactBody'
 import AboveFooter from '../components/Footer/AboveFooter'
 import NavMenu from '../components/Nav/NavMenu'
+import '../components/About/LandmarkImages.css'
 
 function Contact() {
 
@@ -11,7 +12,7 @@ function Contact() {
         <div>
        <NavMenu />
        <ContactBody />
-       <LandmarkImages  Circle='/images/bg-pattern-small-circle.svg'/>
+       <LandmarkImages className='Landmark-Grid'/>
        <AboveFooter/>
        <Footer />
         </div>
