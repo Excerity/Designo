@@ -1,4 +1,4 @@
- @media (min-width: 1025px) {
+ /* @media (min-width: 1025px) {
 
     #MapImageCanada,
     #MapImageUK
@@ -24,18 +24,17 @@
         } 
 
         .Map__Images:nth-child(2) {
-            /* position: absolute; */
             margin-top: -5em;
         }
       
         .Map_Images_Right {
           margin-left: -26em;
-        }
-
+        } */
+/* 
         .DDAIFD {
             margin-left: 13%;
             margin-top: -11%;
-        }
+        } */
 
         
     
@@ -43,4 +42,4 @@
         .Map__Images:nth-child(even){
             margin-right: 15em;
         } */
-      }
+      /* } */

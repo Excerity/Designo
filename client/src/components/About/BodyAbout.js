@@ -16,7 +16,7 @@ function BodyAbout() {
         <p>nonprofits alike to craft designs that make real</p>
         <p>impact. We’re always looking forward to creating</p>
         <p>brands, products, and digital experiences that</p>
-        <p>connect with our client' s audiences.</p>
+        <p>connect with our client's audiences.</p>
         </div>
 
         <div className='Body__Paragraph__About__Tablet'>

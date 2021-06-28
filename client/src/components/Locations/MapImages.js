@@ -1,12 +1,16 @@
-import React from 'react'
-import './MapImages.css'
-import MapImagesDesc from './MapImagesDesc'
+import React from 'react';
+import './MapImages.css';
+import MapImagesDesc from './MapImagesDesc';
+import CanadaImg from '../../images/image-map-canada.png';
+import AustraliaImg from '../../images/image-map-australia.png';
+import UkImg from '../../images/image-map-uk.png';
 
-function MapImages({ Canada, Australia, Uk }) {
+function MapImages() {
     return (
-        <div>
-            <div>
-            <img id='MapImageCanada' src='/images/image-map-canada.png' alt=""/>
+        <div className='Locations-Page-Container'>
+            <div className='Locations-Container'> 
+            <div className='Locations-Image-Container' id='MapImageCanada'>
+            <img className='Map-Image' src={CanadaImg} alt=""/>
             </div>
             <MapImagesDesc
             Country='Canada' 
@@ -15,10 +19,11 @@ function MapImages({ Canada, Australia, Uk }) {
             Address2=' Toronto, Ontario M9C 3J5' 
             Phone= 'P : +1 253-863-8967'
             Mail='M : contact@designo.co' />
+            </div>
 
-
-            <div>
-            <img   id='MapImageAustralia' className='DDAIFD' src='/images/image-map-australia.png' alt=""/>
+            <div className='Locations-Container'>
+            <div className='Locations-Image-Container' id='MapImageAustralia'>
+            <img className='Map-Image' src={AustraliaImg} alt=""/>
             </div>
             <MapImagesDesc
             Country='Australia' 
@@ -27,10 +32,11 @@ function MapImages({ Canada, Australia, Uk }) {
             Address2=' New South Wales 2443' 
             Phone= 'P : (02) 6720 9092'
             Mail='M : contact@designo.au' />
-         
+            </div>
 
-            <div>
-            <img id='MapImageUK'  src='/images/image-map-uk.png' alt=""/>
+            <div className='Locations-Container'>
+            <div className='Locations-Image-Container' id='MapImageUK'>
+            <img className='Map-Image' src={UkImg} alt=""/>
             </div>
             <MapImagesDesc 
             Country='United Kingdom' 
@@ -39,6 +45,7 @@ function MapImages({ Canada, Australia, Uk }) {
             Address2='Rhyd-y-fro SA8 9GA' 
             Phone= 'P : 078 3115 1400'
             Mail='M : contact@designo.uk' />
+          </div>
         </div>
     )
 }

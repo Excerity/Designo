@@ -1,13 +1,13 @@
-  .Map__Images {
-    background-color: #fdf3f0;
-    margin-top: -8.5em;
-    padding-bottom: 6em;
-  }
 
   .Map__Images__Container {
+    background-color: #fdf3f0;
+    margin-top: -2.4em;
+    margin-bottom: -2em;
+    display: flex;
+    flex-direction: column;  
+    padding-top: 5em; 
+    padding-bottom: 5em;
     text-align: center;
-    margin-top: 7em;
-    padding-top: 5em;
   }
 
   .Country {
@@ -24,32 +24,28 @@
   }
 
 
-@media (min-width: 600px) {
-  .Map__Images {
-    width: 87%;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 4.5em;
-  }
+@media (min-width: 768px) {
 
-  .Map_Images_Left {
-    position: absolute;
-    float: left;
-    margin-left: 3em;
+   .Map_Desc_Images {
+    margin-bottom: 6em;
   }
+  .Map__Images__Container{
+    text-align: left;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 15px;
+    margin-top: 1px; 
+    }
 
-  .Map_Images_Right {
+  .Contact-Desc {
     margin-top: 3.9em;
-    margin-left: 6em;
   }
+
 }
 
-@media (min-width: 1025px) {
-  /* .Map__Images {
-    margin-top: -31em;
-  } 
+@media (min-width: 1200px) {
 
-  .Map_Images_Right {
-    margin-left: -26em;
-  } */
+  .Map__Images__Container{
+    margin-top: -35px; 
+    }
 }

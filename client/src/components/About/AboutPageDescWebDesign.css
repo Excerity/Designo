@@ -28,7 +28,9 @@
 .About__Title {
   color: #e7816b;
   padding-bottom: 1.5em;
-  font-size: 20px;
+  font-size: 2rem;
+  font-weight: 500;
+
 }
 
 @media (min-width:1025px) { 

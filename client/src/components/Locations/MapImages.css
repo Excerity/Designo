@@ -1,18 +1,57 @@
-#MapImageCanada {
-    margin-top: 4em;
+
+.Locations-Page-Container {
+  margin-bottom: 7rem;
 }
 
+.Map-Image {
+  width: 100%;
+}
 
+.Locations-Container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2em;
+  margin-top: 4em;
+}
 
+@media (min-width: 768px) {
 
-@media (min-width: 1025px) {
+  .Map-Image {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    border-radius: 15px;
+  }
 
- 
-/* img:nth-child(1) {
-          float: right;
-      }   */
+  .Locations-Page-Container {
+   margin: auto 4%;
+  }
+ }
 
-      /* img:nth-child(even) {
-        float: left;
-    }   */
+  @media (min-width: 1200px) {
+    .Locations-Page-Container {
+      max-width: 70rem;
+      margin: 8em auto;
+    }
+
+    .Locations-Container {
+      grid-template-columns: 2fr 1fr;
+    }
+    .Locations-Container:nth-child(2) {
+      grid-template-columns: 1fr 2fr;    
+    } 
+
+    #MapImageCanada,
+    #MapImageUK {
+      order: 2;
+    } 
+
+   .Locations-Image-Container {
+    margin-top: -30px;
+    } 
+
+    .Locations-Image-Container > img {
+      object-fit: cover;
+      height: 20em; 
+      } 
   }
