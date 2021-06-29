@@ -1,5 +1,5 @@
 import React from 'react'
-import './AboutPageDescWebDesign.css'
+import './AboutPageDescDesign.css'
 
 function MidPageDescWebDesign({ FirstH3, SecondH3, Title}) {
     return (
@@ -8,7 +8,7 @@ function MidPageDescWebDesign({ FirstH3, SecondH3, Title}) {
             <div className='About__Title'>
                <h2>{Title}</h2> 
             </div>
-            <p className='About__Para'>
+            <p className='About__Para' id='first-about-para'>
             {FirstH3}
          
             </p>

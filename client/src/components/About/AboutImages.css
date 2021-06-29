@@ -1,64 +1,72 @@
-.About_Page_Desktop {
-  display: none;
+
+.About-Images-Mobile {
+ display: block;
+ margin-right: auto;
+ margin-left: auto;
+ width: 100%;
+ height: auto;
+ margin-top: 3em;
+ 
 }
+.About-Images-Desktop,
+.About-Images-Tablet     
+ {
+    display: none;
+ }
 
-.About_Page_Tablet {
-  display: none;
-}
-
-.About_Page_Mobile {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-
-  width: 100%;
-  height: auto;
-  margin-top: 3em;
-
-}
-
-#Mobile-World-Class-Image {
-  margin-top: -5em;
-}
-
-
-#Mobile-Real-Deal-Image {
-  margin-bottom: 10em;
-  margin-top: 10em;
-}
-
+ #Mobile-Real-Deal-Image {
+     margin-top: 5em;
+     margin-bottom: 10em;
+ }
 
 @media (min-width: 768px) {
-.About_Page_Mobile {
-  display: none;
+
+    .About-Images-Mobile {
+      display: none;
+    } 
+
+    .About-Images-Tablet  {
+      display: block;
+      width: 90%;
+      border-radius: 15px 15px 0px 0px;
+      margin-right: auto;
+      margin-left: auto;
+    }
 }
 
-.About_Page_Tablet {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 4em;
-  border-radius: 15px 15px 0px 0px;
+ @media (min-width: 1200px) {
+    .About-Images-Tablet {
+        display: none;
+    }
+
+
+    .About-Images-Desktop {
+      display: block;
+      order: 1;
+      margin-left: 1em;
+      border-radius: 15px 0px 0px 15px;
+    }
+    
+    .Desktop_World_Class_Image {
+        display: block;
+        float: left !important;
+    }
+
+    .WorldClass-Container {
+      display: grid;
+      grid-template-columns: 2fr 3fr;
+      margin-top: 10em;
+      max-width: 70em;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 10em;
+      /* grid-gap: -4em; */
+    }
+
+    .About-Image-Desc {
+      order: 2;
+      margin-top: 10em;
+    }
+    
 }
-}
 
-@media (min-width: 1200px) {
-
-.About_Page_Tablet {
-  display: none;
-
-}
-
- .About_Page_Desktop {
-  display: block;
-  float: right;
-  margin-right: 9%;
-  
- }
-
- #World__Class__About__Page__Desktop__Image {
-    float: left; 
-    margin-left: 8%; 
- }
-
-}

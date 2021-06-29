@@ -82,6 +82,10 @@
     margin-left: 2em;
   } 
 
+  .Locations-Images-Container {
+    margin-bottom: 5em;
+  }
+
 
 @media (min-width: 1200px) {
 

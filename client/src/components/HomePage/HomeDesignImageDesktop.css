@@ -1,5 +1,4 @@
 
-
 .Home__Desktop__Images {
   display: grid;
   gap: 1.5rem;
@@ -137,6 +136,7 @@
     margin-right: 3.3%; 
 }
 
+}
 
   @media (min-width:1220px) {
     .Home__Desktop__Images {
@@ -148,8 +148,10 @@
 
     .Home__Design__Image__Desktop__Container{
       margin-top: 10%;
+      
     }
 
   }
-}
+
+
   
