@@ -35,11 +35,11 @@ function HomeBody() {
         </div>
 
         <div className="HomePage-Button-Container">
-        <button className='HomePage-Button'>
         <Link to='/About'>
+        <button className='HomePage-Button'>
         <p className='HomePage-Button-Text'>Learn More</p>
+        </button>
         </Link>
-    </button>
         </div>
          
          
