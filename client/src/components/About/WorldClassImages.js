@@ -14,9 +14,7 @@ function WorldClassImg() {
             <img className='About-Images-Mobile' id='Mobile-World-Class-Image' src={WorldClassMobile} alt=""/>
         </div>
 
-
         <div className='About-Image-Desc'>
-
         <MidPageDescAboutDesign Title='World-class talent' FirstH3='We are a crew of strategists, problem-solvers, and technologists. Every design is thoughtfully 
   crafted from concept to launch, ensuring success in its given market. We are constantly updating 
   our skills in a myriad of platforms.' SecondH3=' Our team is multi-disciplinary and we are not merely interested in form — content and meaning 

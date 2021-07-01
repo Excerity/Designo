@@ -16,7 +16,11 @@
 
  #Mobile-Real-Deal-Image {
      margin-top: 5em;
-     margin-bottom: 10em;
+ }
+ 
+ .About-Images-Mobile,
+ .About-Images-Tablet {
+  margin-bottom: 10em;
  }
 
 @media (min-width: 768px) {
