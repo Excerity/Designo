@@ -43,9 +43,9 @@ function HomeBody() {
         </div>
          
          
-        <figure className='Phone'>
+        <div className='Phone'>
         <img className='Home__Phone__Image' src={HomePhone} alt=""/>
-        </figure>
+        </div>
 
         </div> 
 

@@ -3,7 +3,6 @@ import React from 'react'
 import AboveFooter from '../components/Footer/AboveFooter'
 import Footer from '../components/Footer/Footer'
 import MapImages from '../components/Locations/MapImages'
-import '../components/Locations/Location__Desktop__Layout.css'
 import NavMenu from '../components/Nav/NavMenu'
 
 function Locations() {

@@ -1,5 +1,4 @@
 import React from 'react'
-// import '../MidPageWebDesign.css'
 
 function AppDesignImages({ image }) {
     return (

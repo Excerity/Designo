@@ -5,11 +5,6 @@
     background-position: left 6.375rem;
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-image: url('./images/bg-pattern-hero-home.svg'); */
-  }
-
-  .Background-Circle {
-    /* color: rgb(231, 129, 106); */
   }
 
   .HomePage__Phone__Desktop {
@@ -135,10 +130,14 @@
     grid-template-columns: 3fr 2fr;
     text-align: left;
     height: 43.5em;
-    width: 70rem;
-    margin: 5em auto;
+    max-width: 70rem;
+    margin-top: 6em;
+    margin-bottom: 10em;
+    margin-left: auto;
+    margin-right: auto;
     background-position: 100%;
     background-size: contain;
+
   }
 
   .Body__Paragraph__Tablet {
@@ -150,28 +149,29 @@
     font-size: 17px;
   }  
 
+  .Home__Phone__Image {
+    margin: 44px 0 0 0;
+  }
   
   .Phone {
     display: block;
     position: absolute;
-    top: 22.3em;
+    top: 9em;
     left: 50%;
-    bottom: 0em;
+    bottom: 0;
     right: 0;
     box-sizing: border-box;
     padding: 0;
     border: none;
     margin: auto;
-    width: 0;
-    height: 0;
+    width: 0; 
+    height: 0; 
     min-width: 100%;
-    max-width: 100%;
     min-height: 100%;
-    max-height: 100%; 
   }
 
+
   .Body__Header {
-    /* margin-right: .7em; */
     font-size: 48px;
     padding-top: 1em;
   }
@@ -202,10 +202,3 @@
 
   }
 }
-
-/* @media (min-width: 1500px) {
-  .Body{
-    width: 75vw;
-  }
-
-} */

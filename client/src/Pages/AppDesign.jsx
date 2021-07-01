@@ -3,7 +3,6 @@ import AboveFooter from '../components/Footer/AboveFooter';
 import Footer from '../components/Footer/Footer';
 import'../TabletDesc.css'
 import '../DesktopGridLayout.css'
-import '../DesignImageDesktop.css'
 import NavMenu from '../components/Nav/NavMenu';
 import DesignPageHeader from '../components/DesignProjects/DesignPageHeader';
 import DesignProjects from '../components/DesignProjects/DesignProjects';

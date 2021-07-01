@@ -1,7 +1,6 @@
 import React from 'react'
 import AboveFooter from '../components/Footer/AboveFooter';
 import Footer from '../components/Footer/Footer';
-import MidPageDescAboutDesign from '../components/About/MidPageDescAboutDesign';
 import AboutUsHeader from '../components/About/AboutUsHeader';
 import LandmarkImages from '../components/About/LandmarkImages';
 import WorldClass from '../components/About/WorldClassImages';
