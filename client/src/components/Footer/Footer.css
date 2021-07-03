@@ -10,7 +10,6 @@
 
   .Footer__Logo {
     width: 13em;
-    
   }
 
   .Footer__Link__About {
@@ -111,30 +110,19 @@ fill: rgb(255, 173, 155);
   }
 
   .Footer-Logo-Container {
-    display: grid;
     margin-left: 5%;
   } 
   
-
-  .Footer__Logo {
-    flex: 1fr;
-
-  }
-
   .Footer__Links {
     display: flex;
-
   }
-
 
   .Footer__Link
   {
     margin-bottom: 0;
     margin-right: 2em;
     position: relative;
-
   }
-
 
   .Footer__Bottom__Container {
     display: grid;
@@ -145,7 +133,6 @@ fill: rgb(255, 173, 155);
   .Footer__Middle__Para {
     white-space: nowrap;
   }
-
 
   .Icons {
     margin-right: 1em;
@@ -178,27 +165,17 @@ fill: rgb(255, 173, 155);
 
 @media (min-width:1200px) {
 
-  .Icon-Container
-  
-   {
-    max-width: 89vw;
-  }
-
 .Footer-first-row {
-  max-width: 89vw;
+  max-width: 70rem;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .Footer__Bottom__Container {
-  max-width: 89vw;
-}
+  max-width: 70rem;
+  margin-right: auto;
+  margin-left: auto;
 
-.Footer__Middle__Para__One {
-  margin-right: 0;
-  margin-left: 6em;
-}
-
-.Footer-Logo-Container {
-  margin-left: 15%;
 }
 
 }

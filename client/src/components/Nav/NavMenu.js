@@ -13,7 +13,6 @@ const NavMenu = () => {
   return (
    <nav className="navbar">
 
-   
     <div>
      <Link to='/'> 
 
