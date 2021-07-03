@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Designo/static/css/main.36c709e3.chunk.css",
-    "main.js": "/Designo/static/js/main.9a85e53e.chunk.js",
-    "main.js.map": "/Designo/static/js/main.9a85e53e.chunk.js.map",
+    "main.css": "/Designo/static/css/main.736360b9.chunk.css",
+    "main.js": "/Designo/static/js/main.7b82e993.chunk.js",
+    "main.js.map": "/Designo/static/js/main.7b82e993.chunk.js.map",
     "runtime-main.js": "/Designo/static/js/runtime-main.da5589e8.js",
     "runtime-main.js.map": "/Designo/static/js/runtime-main.da5589e8.js.map",
-    "static/js/2.60e0311b.chunk.js": "/Designo/static/js/2.60e0311b.chunk.js",
-    "static/js/2.60e0311b.chunk.js.map": "/Designo/static/js/2.60e0311b.chunk.js.map",
+    "static/js/2.1d2ce369.chunk.js": "/Designo/static/js/2.1d2ce369.chunk.js",
+    "static/js/2.1d2ce369.chunk.js.map": "/Designo/static/js/2.1d2ce369.chunk.js.map",
     "index.html": "/Designo/index.html",
-    "static/css/main.36c709e3.chunk.css.map": "/Designo/static/css/main.36c709e3.chunk.css.map",
-    "static/js/2.60e0311b.chunk.js.LICENSE.txt": "/Designo/static/js/2.60e0311b.chunk.js.LICENSE.txt",
+    "static/css/main.736360b9.chunk.css.map": "/Designo/static/css/main.736360b9.chunk.css.map",
+    "static/js/2.1d2ce369.chunk.js.LICENSE.txt": "/Designo/static/js/2.1d2ce369.chunk.js.LICENSE.txt",
     "static/media/DesignPageHeader.css": "/Designo/static/media/bg-pattern-small-circle.6998c69d.svg",
     "static/media/indivDesignImage.css": "/Designo/static/media/tablet-web-design.7790aab8.jpg",
     "static/media/desktop-image-about-hero.064b26d3.jpg": "/Designo/static/media/desktop-image-about-hero.064b26d3.jpg",
@@ -48,8 +48,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.da5589e8.js",
-    "static/js/2.60e0311b.chunk.js",
-    "static/css/main.36c709e3.chunk.css",
-    "static/js/main.9a85e53e.chunk.js"
+    "static/js/2.1d2ce369.chunk.js",
+    "static/css/main.736360b9.chunk.css",
+    "static/js/main.7b82e993.chunk.js"
   ]
 }
